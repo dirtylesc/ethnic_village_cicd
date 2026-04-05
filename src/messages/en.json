@@ -1,0 +1,1550 @@
+{
+  "common": {
+    "error_loading_list": "An error occurred while loading the list",
+    "no_results": "No results found",
+    "view_more": "View more"
+  },
+  "uploading": "Uploading image...",
+  "clear_image": "Remove image",
+  "admin": {
+    "status": {
+      "DRAFT": "Draft",
+      "REVIEWING": "Pending Review",
+      "REJECTED": "Rejected",
+      "APPROVED": "Approved",
+      "SCHEDULED": "Scheduled",
+      "PUBLISHED": "Published",
+      "AVAILABLE": "Available",
+      "FULLY_BOOKED": "Fully Booked",
+      "ONGOING": "Ongoing",
+      "PAUSED": "Paused",
+      "COMPLETED": "Completed",
+      "CANCELLED": "Cancelled"
+    },
+    "sidebar": {
+      "section": {
+        "general": "General",
+        "users": "Users & Permissions",
+        "business": "Business",
+        "content": "Content & Utilities",
+        "functions": "Functions"
+      },
+      "dashboard": "Dashboard",
+      "user": "User",
+      "employee": "Employee",
+      "role": "Role",
+      "tour": "Tour",
+      "category": "Homepage Category",
+      "promotion": "Promotion",
+      "tour_assigned_available_dates": "Tour Guide Assignments",
+      "booking": "Booking",
+      "order": "Order",
+      "article": "Article",
+      "notification": "Notification",
+      "report": "Report",
+      "chatbot": "Chatbot",
+      "logout": "Logout"
+    },
+    "search_command": {
+      "trigger_placeholder": "Quick search in admin...",
+      "input_placeholder": "Type to search pages or actions...",
+      "empty": "No matching results.",
+      "sections": {
+        "general": "General",
+        "management": "Business Management",
+        "create": "Create New"
+      },
+      "items": {
+        "general": {
+          "dashboard": "Dashboard",
+          "user": "Customer",
+          "employee": "Employee",
+          "role": "Roles & Permissions"
+        },
+        "management": {
+          "tour": "Tour",
+          "category": "Homepage Category",
+          "tour_assignment": "Tour Guide Assignments",
+          "booking": "Booking",
+          "order": "Order",
+          "article": "Article",
+          "notification": "System Notification",
+          "report": "Reports & Analytics",
+          "chatbot": "Chatbot"
+        },
+        "create": {
+          "user": "Create Customer",
+          "employee": "Create Employee",
+          "role": "Create Role",
+          "tour": "Create Tour",
+          "article": "Create Article",
+          "notification": "Create Notification",
+          "chatbot": "Create Chatbot Content"
+        }
+      }
+    },
+    "article": {
+      "list": {
+        "title": "Article management",
+        "description": "Search, edit, publish/unpublish or delete articles",
+        "search": "Search",
+        "status": "Status",
+        "all": "All",
+        "column_title": "Title",
+        "column_status": "Status",
+        "column_created_at": "Created at",
+        "column_updated_at": "Updated at",
+        "column_actions": "Actions",
+        "empty": "No articles",
+        "create": "Create article",
+        "edit": "Edit",
+        "publish": "Publish",
+        "unpublish": "Unpublish",
+        "delete": "Delete",
+        "prev": "Previous",
+        "next": "Next",
+        "confirm_delete": "Are you sure you want to delete this article?",
+        "toast_delete_success": "Article deleted",
+        "toast_delete_failed": "Delete article failed",
+        "toast_status_success": "Status updated successfully",
+        "toast_status_failed": "Update status failed",
+        "open_menu": "Open menu"
+      },
+      "form": {
+        "title_create": "Create article",
+        "title_edit": "Edit article",
+        "subtitle_create": "Fill information and save to publish later",
+        "subtitle_edit": "Update content and status",
+        "info": "Article information",
+        "field_title": "Title *",
+        "field_slug": "Slug",
+        "field_status": "Status",
+        "field_thumbnail": "Thumbnail",
+        "field_summary": "Summary",
+        "field_content": "Content *",
+        "field_tags": "Tags",
+        "save": "Save article",
+        "saving": "Saving...",
+        "back": "Back",
+        "not_found": "Article not found",
+        "toast_create_success": "Article created successfully",
+        "toast_create_failed": "Create article failed",
+        "toast_update_success": "Article updated successfully",
+        "toast_update_failed": "Update article failed",
+        "uploading": "Uploading image...",
+        "clear_image": "Remove image"
+      }
+    },
+    "tour": {
+      "list": {
+        "tour": "Tour",
+        "ethnic": "Ethnic",
+        "rating": "Rating",
+        "price": "Price",
+        "status": "Status",
+        "adult": "Adult",
+        "child": "Child",
+        "duration": "Duration",
+        "day": "day",
+        "night": "night",
+        "average_rating": "Average Rating",
+        "reviews_count": "Reviews Count",
+        "edit": "Edit",
+        "delete": "Delete",
+        "change_status": "Change Status",
+        "no_title": "No Title",
+        "search_tour": "Search tour...",
+        "tour_list_title": "Tour List",
+        "tour_list_description": "Manage tour details, availability, and booking status in one place.",
+        "import": "Import",
+        "add_tour": "Add Tour",
+        "update_status": "Update status",
+        "export_tasks": "Export tasks",
+        "delete_tasks": "Delete tasks",
+        "are_you_sure": "Are you absolutely sure?",
+        "delete_warning": "This action cannot be undone. This will permanently delete your {count} tours from our servers.",
+        "cancel": "Cancel",
+        "reset_filters": "Reset filters",
+        "published_utc": "Published(UTC)",
+        "created_utc": "Created(UTC)",
+        "updated_utc": "Updated(UTC)",
+        "open_menu": "Open menu"
+      },
+      "assigned_dates": {
+        "tour": "Tour",
+        "available_date": "Available Date",
+        "assigned_date": "Assigned Date",
+        "status": "Status",
+        "assigned_employee": "Assigned Employee",
+        "assigned_by": "By",
+        "no_employee": "No employee",
+        "pickup_location": "Pickup Location",
+        "request_cancel": "Request Cancel",
+        "open_menu": "Open menu",
+        "cancel_confirm_title": "Confirm Cancellation Request",
+        "cancel_confirm_message": "Are you sure you want to send a cancellation request for this tour assignment?",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "booked_slots": "{count} slots",
+        "duration": "{days} days - {nights} nights",
+        "no_title": "No title",
+        "all_assignments": "All Assigned Dates",
+        "my_assignments": "My Assigned Dates",
+        "all_assignments_description": "View all available dates assigned to employees",
+        "my_assignments_description": "View available dates assigned to you",
+        "search_tour": "Search by tour name...",
+        "date_range": "Date Range",
+        "from_date": "From Date",
+        "to_date": "To Date",
+        "clear_filters": "Clear Filters",
+        "filter_status": "Status",
+        "filter_employee": "Filter by Employee",
+        "select_employees": "Select employees...",
+        "calendar_view": "Calendar View",
+        "my_calendar": "My Calendar",
+        "calendar_description": "View assignments by month",
+        "assignments_this_month": "assignments this month",
+        "select_date": "Select Date",
+        "assignments": "assignments",
+        "no_assignments": "No assignments",
+        "no_assignments_on_date": "No assignments on this date",
+        "select_date_to_view": "Select a date to view assignment details",
+        "guide": "Guide",
+        "table_view": "Table",
+        "error_loading": "Unable to load data",
+        "no_data": "No data available",
+        "actions": "Actions",
+        "not_available": "N/A",
+        "update_status": "Update Status",
+        "update_status_title": "Update Tour Status",
+        "current_status": "Current Status",
+        "select_new_status": "Select New Status",
+        "status_updated_success": "Status Updated",
+        "status_updated_desc": "Tour status has been updated successfully",
+        "status_update_failed": "Update Failed",
+        "no_status_transition_available": "No status transitions available from current status",
+        "view_history": "View History"
+      }
+    },
+    "booking": {
+      "list": {
+        "title": "Booking Management",
+        "description": "View and manage booking list from customers",
+        "export": "Export Data",
+        "export_title": "Booking List",
+        "filter": {
+          "tour": "Select Tour",
+          "tour_dates": "Select Tour Dates",
+          "status": "Status",
+          "date_range": "Booking Date Range"
+        },
+        "table": {
+          "id": "Booking ID",
+          "booking_id": "Booking ID",
+          "tour_title": "Tour Title",
+          "tour_name": "Tour Name",
+          "tour_date": "Tour Date",
+          "booker": "Booker",
+          "booker_name": "Booker Name",
+          "booker_phone": "Phone Number",
+          "status": "Status",
+          "pricing": "Pricing",
+          "total_price": "Total Price",
+          "participants": "Participants",
+          "payment_date": "Payment Date",
+          "payment_method": "Payment Method",
+          "payment_status": "Payment Status",
+          "created_at": "Created At",
+          "actions": "Actions",
+          "view_detail": "View Detail"
+        },
+        "status": {
+          "pending_payment": "Pending Payment",
+          "failed_payment": "Payment Failed",
+          "draft": "Draft",
+          "paid": "Paid",
+          "confirmed": "Confirmed",
+          "in_progress": "In Progress",
+          "cancelled_by_user": "Cancelled by User",
+          "cancelled_by_admin": "Cancelled by Admin",
+          "completed": "Completed",
+          "refunded": "Refunded"
+        },
+        "payment_status": {
+          "pending": "Pending Payment",
+          "partial": "Partial Payment",
+          "paid": "Paid",
+          "refunded": "Refunded"
+        },
+        "actions": {
+          "title": "Actions",
+          "view_details": "View Details"
+        }
+      }
+    },
+    "available_date_status": {
+      "AVAILABLE": "Available",
+      "FULLY_BOOKED": "Fully Booked",
+      "ONGOING": "Ongoing",
+      "COMPLETED": "Completed",
+      "CANCELLED": "Cancelled",
+      "PAUSED": "Paused"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "welcome": "Welcome back! Here's an overview of your business operations.",
+      "error_loading": "Unable to load data",
+      "sections": {
+        "key_metrics": "Key Metrics",
+        "operations": "Operations Management",
+        "analytics": "Charts & Analytics",
+        "recent_activity": "Recent Activity"
+      },
+      "metrics": {
+        "total_revenue": "Total Revenue",
+        "total_revenue_desc": "Revenue this month",
+        "new_bookings": "New Bookings",
+        "new_bookings_desc": "Tour bookings today",
+        "upcoming_departures": "Upcoming Departures",
+        "upcoming_departures_desc": "Tours departing in next 48h",
+        "pending_bookings": "Pending Bookings",
+        "pending_bookings_desc": "Awaiting payment, need urgent confirmation",
+        "compared_to_last_month": "compared to last month"
+      },
+      "upcoming_departures": {
+        "title": "Upcoming Departures",
+        "description": "Tours departing in the next 7 days",
+        "tour_name": "Tour Name",
+        "title": "Revenue Chart",
+        "current": "Actual Revenue",
+        "previous": "Same Period Last Month"
+      },
+      "top_destinations": {
+        "title": "Top Destinations",
+        "description": "Booking distribution by location this month",
+        "empty": "No booking data yet"
+      },
+      "recent_bookings": {
+        "title": "Recent Bookings",
+        "description": "Latest bookings that need processing",
+        "id": "ID",
+        "customer": "Customer",
+        "tour": "Tour",
+        "departure_date": "Departure Date",
+        "total": "Total",
+        "status": "Status",
+        "empty": "No new bookings yet"
+      }
+    },
+    "role": {
+      "list": {
+        "title": "Role Management",
+        "description": "Manage roles and access permissions in the system",
+        "createNew": "Create Role",
+        "empty": "No roles yet",
+        "table": {
+          "name": "Role Name",
+          "description": "Description",
+          "permissions": "Permissions",
+          "users": "Users",
+          "actions": "Actions"
+        },
+        "actions": {
+          "edit": "Edit",
+          "delete": "Delete"
+        }
+      },
+      "create": {
+        "title": "Create New Role",
+        "description": "Create and configure a role with appropriate access permissions for users in the system",
+        "role_name_label": "Role Name",
+        "role_name_placeholder": "e.g., Content Editor",
+        "permissions_label": "Access Permissions",
+        "selected_permissions_label": "Selected Permissions",
+        "reset": "Reset",
+        "create": "Create Role",
+        "creating": "Creating..."
+      },
+      "delete": {
+        "title": "Delete Role",
+        "description": "Are you sure you want to delete the role \"{name}\"? This action cannot be undone.",
+        "cancel": "Cancel",
+        "confirm": "Delete"
+      },
+      "edit": {
+        "title": "Edit Role",
+        "description": "Update role information and access permissions"
+      }
+    },
+    "category": {
+      "title": "Category Management",
+      "add_category": "Add Category",
+      "name": "Category Name",
+      "description": "Description",
+      "tour_count": "Tour Count",
+      "display_order": "Display Order",
+      "status": "Status",
+      "actions": "Actions",
+      "no_categories": "No categories yet",
+      "delete_confirm_title": "Confirm Delete",
+      "delete_confirm_description": "Are you sure you want to delete this category?",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "create_title": "Create New Category",
+      "edit_title": "Edit Category",
+      "category_info": "Category Information",
+      "name_placeholder": "Enter category name",
+      "description_placeholder": "Short description about the category",
+      "image_url": "Image URL",
+      "enable_on_homepage": "Display on Homepage",
+      "creating": "Creating...",
+      "create": "Create Category",
+      "saving": "Saving...",
+      "save": "Save Changes",
+      "tours_in_category": "Tours in Category",
+      "add_tour": "Add Tour",
+      "add_tour_dialog_title": "Find and Add Tour",
+      "search_tour_placeholder": "Enter tour name to search",
+      "search": "Search",
+      "no_results": "No results found",
+      "no_tours": "No tours in category yet"
+    },
+    "promotion": {
+      "title": "Promotion Management",
+      "description": "Manage promotions and discount codes",
+      "create": "Create Promotion",
+      "edit": "Edit",
+      "delete": "Delete",
+      "status": "Status",
+      "code": "Code",
+      "discount": "Discount",
+      "start_date": "Start Date",
+      "end_date": "End Date",
+      "empty": "No promotions yet"
+    }
+  },
+  "home": {
+    "title": "Hello world!",
+    "about": "Go to about page",
+    "tour": {
+      "title": "Best Place For Holiday",
+      "description": "Best Place For Holiday",
+      "popular": "Popular",
+      "outstanding": "Outstanding",
+      "best_price": "Best Price"
+    },
+    "article": {
+      "title": "Travel Vibes – Feel Every Journey",
+      "description": "Stories, tips & inspo for every wanderer at heart"
+    },
+    "reasons": [
+      {
+        "icon": "reason-icon.png",
+        "title": "Meet all your needs",
+        "description": "From flights, accommodations to attractions, you can trust our complete travel products and guides."
+      },
+      {
+        "icon": "reason-icon.png",
+        "title": "Reasonable prices",
+        "description": "We're committed to bringing you amazing travel experiences at the most affordable prices."
+      },
+      {
+        "icon": "reason-icon.png",
+        "title": "24/7 Support",
+        "description": "Our support team is always ready to help you anytime, anywhere throughout your journey."
+      }
+    ]
+  },
+  "bookmark": {
+    "auth_required": "Please login to save this item",
+    "add_tooltip": "Add to bookmarks",
+    "remove_tooltip": "Remove from bookmarks",
+    "save": "Save",
+    "saved": "Saved"
+  },
+  "search": {
+    "location_placeholder": "Choose location",
+    "keyword_placeholder": "Search destinations...",
+    "date_placeholder": "Choose date",
+    "search_button": "Search",
+    "searching": "Searching...",
+    "no_results": "No results found",
+    "results_count": "Found {count} tours",
+    "clear_search": "Clear filters",
+    "search_error": "An error occurred while searching"
+  },
+  "filters": {
+    "ethnic": {
+      "title": "Ethnic"
+    },
+    "popular": {
+      "title": "Popular Filter",
+      "on_sale": "ON SALE"
+    },
+    "location": {
+      "title": "Location"
+    },
+    "tags": {
+      "title": "Tags"
+    },
+    "duration": {
+      "title": "Duration",
+      "1_day": "1 Day",
+      "2_3_days": "2-3 Days",
+      "4_7_days": "4-7 Days",
+      "7_plus_days": "7+ Days"
+    },
+    "rating": {
+      "title": "Rating",
+      "5_stars": "5 stars",
+      "4_stars_up": "4 stars and up",
+      "3_stars_up": "3 stars and up"
+    },
+    "price": {
+      "title": "Price"
+    }
+  },
+  "tour": {
+    "item": {
+      "max_slots": "Max: {slots}",
+      "duration": "{days} days - {nights} nights",
+      "pickup_location": "Pickup: {location}",
+      "price": "{price}/person"
+    },
+    "list": {
+      "title": "Tours",
+      "search_results": "Search results for \"{keyword}\"",
+      "filter_by": "Filter by",
+      "clear_filters": "Clear filters",
+      "empty": {
+        "title": "No tours found",
+        "description": "Try adjusting your filters to find what you're looking for."
+      },
+      "sort": {
+        "placeholder": "Sort by",
+        "default": "Default",
+        "price_low_high": "Price: Low to High",
+        "price_high_low": "Price: High to Low",
+        "rating": "Rating",
+        "duration": "Duration"
+      }
+    },
+    "edit": {
+      "title": "Edit Tour"
+    },
+    "update": {
+      "success": "Tour updated successfully"
+    },
+    "detail": {
+      "review": "Review",
+      "days": "Days",
+      "location": "Location",
+      "ethnic": "Ethnic",
+      "duration_format": "{days} Days/{nights} Nights",
+      "share": "Share",
+      "share_success": "Tour link copied",
+      "share_error": "Unable to share, please try again",
+      "overview_tab": "Overview",
+      "reviews_tab": "Reviews",
+      "loading": "Loading tour details...",
+      "not_found": "Tour not found",
+      "overview": {
+        "title": "Trip Overview",
+        "included_excluded": "Included/Excluded Services",
+        "trip_plan": "Trip Plan",
+        "no_overview": "No overview available",
+        "day_label": "Day {day}"
+      },
+      "similar": {
+        "title": "Similar Tours",
+        "empty": {
+          "title": "No similar tours found",
+          "description": "There are currently no similar tours for this tour."
+        }
+      },
+      "booking": {
+        "title": "Book This Tour",
+        "adult": "Adult",
+        "child": "Child",
+        "adult_price": "${price}/adult",
+        "child_price": "${price}/child",
+        "total": "Total",
+        "book_now": "Book Now",
+        "available_slots": "{count} slots available",
+        "no_slots": "No slots available",
+        "select_date": "Please select a date",
+        "booking_failed": "Booking failed",
+        "booking_failed_out_of_stock": "Out of stock",
+        "booking_failed_invalid_data": "Invalid data",
+        "discount": "Discount",
+        "max": "Max"
+      },
+      "reviews": {
+        "total_reviews": "{count} reviews",
+        "average_rating": "Average rating",
+        "add_review": "Add your review",
+        "your_rating": "Your rating",
+        "your_review": "Your review",
+        "submit": "Submit Review",
+        "submitting": "Submitting...",
+        "load_more": "Load more reviews",
+        "no_reviews": "No reviews yet",
+        "no_name": "Anonymous",
+        "edit": "Edit",
+        "delete": "Delete",
+        "pin": "Pin",
+        "unpin": "Unpin",
+        "report": "Report",
+        "placeholder": "Write your review here...",
+        "delete_confirm": "Are you sure you want to delete this review?",
+        "report_confirm": "Are you sure you want to report this review?"
+      },
+      "available_tickets": {
+        "title": "Available Dates",
+        "available_slots": "{count} slots left",
+        "no_slots": "Sold out",
+        "special_price": "Special price"
+      },
+      "guild_profile": {
+        "experience": "Experience: {years} years",
+        "languages": "Languages",
+        "achievements": "Achievements",
+        "description": "More than just a guide, a companion sharing local stories.",
+        "contact_title": "Tour contact",
+        "contact_phone": "Phone",
+        "contact_email": "Email",
+        "contact_zalo": "Zalo",
+        "contact_whatsapp": "WhatsApp",
+        "pickup_location": "Pickup Location",
+        "contact_missing": "No contact information available"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "welcome": "Welcome back",
+      "please_login": "Please login to continue",
+      "email": "Email",
+      "email_placeholder": "Enter your email",
+      "password": "Password",
+      "password_placeholder": "Enter your password",
+      "remember_me": "Remember me",
+      "forgot_password": "Forgot password?",
+      "no_account": "Don't have an account?",
+      "signup": "Sign up",
+      "sign_in": "Login",
+      "signing_in": "Signing in...",
+      "login_success": "Login successful"
+    },
+    "signup": {
+      "go_to_login": "Login",
+      "create_account": "Create New Account",
+      "please_enter_details": "Please enter details",
+      "first_name": "First Name",
+      "first_name_placeholder": "Enter your first name",
+      "last_name": "Last Name",
+      "last_name_placeholder": "Enter your last name",
+      "email": "Email",
+      "email_placeholder": "Enter your email",
+      "password": "Password",
+      "password_placeholder": "Enter your password",
+      "agree_to_terms": "I agree to the terms and conditions",
+      "sign_up": "Sign up",
+      "already_have_account": "Already have an account?"
+    },
+    "forgot_password": {
+      "back": "Back",
+      "title": "Forgot Password",
+      "description": "Enter your registered email address. we'll send you a code to reset your password.",
+      "email": "Email Address",
+      "email_placeholder": "Enter your email",
+      "send_otp": "Send OTP"
+    },
+    "enter_otp": {
+      "back": "Back",
+      "title": "Enter OTP",
+      "description": "We have share a code of your registered email address",
+      "verify_otp": "Verify OTP"
+    }
+  },
+  "layout": {
+    "header": {
+      "nav": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "destinations": "Destinations",
+        "blog": "Blog",
+        "contact": "Contact"
+      },
+      "auth": {
+        "sign_in": "Sign In",
+        "sign_up": "Sign Up"
+      },
+      "user_menu": {
+        "notifications": "Notifications",
+        "no_notifications": "No notifications",
+        "unread_notifications": "{count} unread notifications",
+        "profile": {
+          "favorites": "My Favorites",
+          "transactions": "Transaction List",
+          "edit_profile": "Edit Profile",
+          "logout": "Logout"
+        }
+      }
+    },
+    "footer": {
+      "about": {
+        "title": "About Us",
+        "our_story": "Our Story",
+        "team": "Team",
+        "careers": "Careers",
+        "testimonials": "Testimonials",
+        "partners": "Partners",
+        "press": "Press",
+        "blog": "Blog"
+      },
+      "support": {
+        "title": "Support",
+        "help_center": "Help Center",
+        "safety": "Safety Information",
+        "cancellation": "Cancellation Options",
+        "covid": "COVID-19 Response",
+        "accessibility": "Accessibility",
+        "report": "Report Issue"
+      },
+      "destinations": {
+        "title": "Destinations",
+        "ha_giang": "Ha Giang",
+        "sapa": "Sapa",
+        "mu_cang_chai": "Mu Cang Chai",
+        "mai_chau": "Mai Chau",
+        "ba_be": "Ba Be",
+        "kon_tum": "Kon Tum",
+        "dak_nong": "Dak Nong"
+      },
+      "newsletter": {
+        "title": "Stay updated with travel tips",
+        "email_placeholder": "Your Email Address",
+        "subscribe": "Subscribe"
+      },
+      "copyright": "©2023 Travo All Rights are reserved️"
+    }
+  },
+  "order": {
+    "title": "Review Booking",
+    "payment_expired_title": "Booking Payment Expired",
+    "payment_expired_message": "The payment period for this booking has expired. Please contact support or create a new booking.",
+    "confirm_failed": "Booking Confirmation Failed",
+    "confirm_failed_description": "Unable to confirm your booking. Please try again.",
+    "success_title": "Booking Successful",
+    "order_code": "Order Code",
+    "not_found_title": "Order Not Found",
+    "not_found_message": "The order does not exist or has been deleted.",
+    "tour_info_title": "Tour Information",
+    "start_date": "Start Date",
+    "adults": "adults",
+    "children": "children",
+    "contact_info_title": "Contact Information",
+    "payment_info": "Payment Information",
+    "total_paid": "Total Paid",
+    "email_sent": "A confirmation email has been sent to your email address.",
+    "browse_tours": "Browse More Tours",
+    "view_bookings": "View My Bookings",
+    "lookup": {
+      "title": "Order Lookup",
+      "placeholder": "Enter order code",
+      "enter_order_code": "Please enter order code",
+      "not_found": "Order not found with this code",
+      "order_found": "Order Information",
+      "order_code": "Order Code",
+      "tour_info": "Tour Information",
+      "adults": "adults",
+      "children": "children",
+      "contact_info": "Contact Information",
+      "total_paid": "Total Paid"
+    },
+    "additional_info": {
+      "title": "Additional requirements (optional)",
+      "placeholder": "Share your experience...",
+      "format_note": "Format: English or local language at destination. Requirements subject to actual situation of the supplier."
+    },
+    "contact_info": {
+      "title": "Contact Information",
+      "booker_name": "Name",
+      "booker_phone": "Phone",
+      "booker_email": "Email",
+      "enter_name": "Enter your name",
+      "enter_phone": "Enter your phone number",
+      "enter_email": "Enter your email",
+      "visitor": "I am the visitor",
+      "order_for_others": "Order for others"
+    },
+    "guest_info": {
+      "title": "Guest information",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "enter_name": "Enter your name",
+      "enter_phone": "Enter your phone number",
+      "enter_email": "Enter your email"
+    },
+    "tour_info": {
+      "tour_guide": "Tour guide",
+      "pickup_location": "Pick-up location",
+      "review": "Review",
+      "days": "Days",
+      "location": "Location",
+      "adults": "Adults",
+      "children": "Children"
+    },
+    "booking_calculator": {
+      "adult": "Adult",
+      "children": "Children",
+      "coupon_discount": "Coupon Discount",
+      "enter_promotion": "Enter promotion code",
+      "book_now": "Book Now",
+      "confirm_failed": "Booking failed",
+      "contact_info_required": "Contact information is required",
+      "guest_info_required": "Guest information is required",
+      "payment_success": "Payment successful",
+      "payment_success_description": "Your order has been paid successfully",
+      "payment_cancelled": "Payment cancelled"
+    },
+    "pick_drop_location": {
+      "title": "Pick-up/Drop-off location",
+      "location": "Location",
+      "address": "Address"
+    },
+    "promotion": {
+      "errors": {
+        "not_found": "Promotion code not found",
+        "inactive": "This promotion is not active yet",
+        "expired": "This promotion has expired",
+        "out_of_stock": "This promotion is out of stock"
+      },
+      "success": "Promotion code applied successfully",
+      "discount": "Discount",
+      "max": "Max",
+      "promotion_code": "Promotion code",
+      "apply": "Apply"
+    }
+  },
+  "Common": {
+    "button": {
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "close": "Close",
+      "save": "Save",
+      "edit": "Edit",
+      "delete": "Delete",
+      "back": "Back",
+      "next": "Next"
+    }
+  },
+  "Filter": {
+    "title": "Filters",
+    "button": {
+      "apply": "Apply"
+    }
+  },
+  "personal": {
+    "navigation": {
+      "title": "Navigation",
+      "bookmark": "Saved",
+      "bookmark_desc": "Saved tours and articles",
+      "transaction": "Bookings",
+      "transaction_desc": "Manage your tour bookings",
+      "account": "Account",
+      "account_desc": "Account settings",
+      "logout": "Logout",
+      "saved": "Saved",
+      "pending": "Pending",
+      "help_title": "Need Help?",
+      "help_desc": "Contact us for booking assistance.",
+      "contact_support": "Contact Support"
+    },
+    "bookmark": {
+      "title": "Bookmarks",
+      "saved_tours": "Saved Tours",
+      "saved_articles": "Saved Articles",
+      "view_more": "View more"
+    },
+    "transaction": {
+      "title": "My Bookings",
+      "description": "Track and manage your tour bookings",
+      "tabs": {
+        "pending": "Pending Payment",
+        "other": "Other Bookings"
+      },
+      "no_transactions": "No bookings found",
+      "error_loading": "Error loading bookings",
+      "details": "Details",
+      "booking_id": "Booking ID",
+      "booking_code": "Booking code",
+      "duration": "Duration",
+      "days": "days",
+      "location": "Location",
+      "date": "Date",
+      "guests": "Guests",
+      "people": "people",
+      "payment_method_label": "Payment Method",
+      "payment_date": "Payment Date",
+      "discount": "Discount",
+      "booked_on": "Booked on",
+      "deadline": {
+        "expired": "Expired",
+        "urgent": "Payment deadline approaching!"
+      },
+      "status": {
+        "darft": "Draft",
+        "pending_payment": "Pending Payment",
+        "failed_payment": "Failed Payment",
+        "expired_payment": "Expired Payment",
+        "paid": "Paid",
+        "confirmed": "Confirmed",
+        "assigned_guide": "Guide Assigned",
+        "in_progress": "In Progress",
+        "cancelled_by_user": "Cancelled by User",
+        "cancelled_by_admin": "Cancelled by Admin",
+        "completed": "Completed",
+        "refunded": "Refunded",
+        "expired": "Expired"
+      },
+      "payment_method": {
+        "bank_transfer": "Bank Transfer",
+        "credit_card": "Credit Card",
+        "paypal": "PayPal",
+        "cash": "Cash",
+        "momo": "MoMo",
+        "zalopay": "ZaloPay",
+        "vnpay": "VNPay"
+      },
+      "filters": {
+        "title": "Search Filters",
+        "subtitle": "Find bookings by date and status",
+        "date_range": "Date range",
+        "start_date": "Start date",
+        "end_date": "End date",
+        "status": "Status",
+        "all_statuses": "All statuses",
+        "selected": "selected",
+        "search_status": "Search status",
+        "no_results": "No results",
+        "clear": "Clear filters"
+      },
+      "actions": {
+        "pay_now": "Pay Now",
+        "cancel": "Cancel",
+        "review": "Review",
+        "view_details": "View Details"
+      },
+      "cancel_success": "Booking Cancelled Successfully",
+      "cancel_success_description": "Your booking has been cancelled successfully",
+      "cancel_failed": "Cancel Booking Failed",
+      "cancel_failed_description": "Unable to cancel booking. Please try again",
+      "payment_error": "Payment Error",
+      "payment_error_description": "Unable to create payment link. Please try again",
+      "processing": "Processing...",
+      "cancelling": "Cancelling...",
+      "pending_tab": "Pending Payment",
+      "other_tab": "Other",
+      "no_pending": "No pending bookings",
+      "no_other": "No other bookings"
+    },
+    "detail": {
+      "title": "Transaction Details",
+      "booking_info": {
+        "title": "Booking Information",
+        "booking_id": "Booking ID",
+        "booking_date": "Booking Date",
+        "start_date": "Start Date",
+        "end_date": "End Date",
+        "guest_count": "Guest Count",
+        "payment_info": "Payment Information",
+        "payment_method": "Payment Method",
+        "payment_date": "Payment Date",
+        "original_price": "Original Price",
+        "discount": "Discount",
+        "total_amount": "Total Amount",
+        "payment_deadline": "Payment Deadline",
+        "additional_info": "Additional Information"
+      },
+      "customer_info": {
+        "title": "Customer Information",
+        "customer": "Customer",
+        "email": "Email",
+        "phone": "Phone Number",
+        "status": "Status",
+        "loyal_customer": "Loyal Customer",
+        "new_customer": "New Customer",
+        "send_email": "Send Email",
+        "make_call": "Make Call",
+        "not_updated": "Not Updated"
+      },
+      "tour_info": {
+        "title": "Tour Details",
+        "pickup_location": "Pickup Location",
+        "duration": "Duration",
+        "adult_price": "Adult Price",
+        "child_price": "Child Price",
+        "highlights": "Highlights",
+        "professional_guide": "Professional Guide",
+        "transportation": "Transportation",
+        "travel_insurance": "Travel Insurance",
+        "support_24_7": "24/7 Support",
+        "view_tour_details": "View Tour Details",
+        "similar_tours": "Similar Tours",
+        "tour_not_available": "Tour information not available"
+      },
+      "actions": {
+        "pay_now": "Pay Now",
+        "print_invoice": "Print Invoice",
+        "download_pdf": "Download PDF",
+        "back_to_list": "Back to List",
+        "print_transaction": "Print Transaction",
+        "back": "Back"
+      },
+      "loading": "Loading transaction details...",
+      "error": {
+        "title": "Error Occurred",
+        "message": "Unable to load transaction details. Please try again.",
+        "retry": "Retry"
+      },
+      "format": {
+        "days": "days",
+        "nights": "nights",
+        "day_night": "{days} days {nights} nights",
+        "single_day": "1 day",
+        "adults": "adults",
+        "children": "children",
+        "infants": "infants",
+        "not_specified": "Not specified"
+      }
+    },
+    "account": {
+      "title": "Account Settings",
+      "profile": "Profile Settings",
+      "security": "Security Settings",
+      "personal_info": {
+        "title": "Personal Information",
+        "description": "Update your personal information and contact details",
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "phone_number": "Phone Number",
+        "date_of_birth": "Date of Birth",
+        "address": "Address",
+        "avatar": "Avatar URL",
+        "edit": "Edit",
+        "save_changes": "Save Changes",
+        "cancel": "Cancel",
+        "success": "Personal information updated successfully",
+        "error": "Failed to update personal information",
+        "updating": "Updating..."
+      },
+      "password": {
+        "title": "Change Password",
+        "description": "Update your password to keep your account secure",
+        "current_password": "Current Password",
+        "new_password": "New Password",
+        "confirm_password": "Confirm Password",
+        "requirements": "Password must be at least 8 characters",
+        "edit": "Change Password",
+        "change_password": "Change Password",
+        "cancel": "Cancel",
+        "success": "Password changed successfully",
+        "error": "Failed to change password",
+        "mismatch": "Passwords do not match",
+        "changing": "Changing...",
+        "no_edit_message": "Click the 'Change Password' button to update your password"
+      }
+    },
+    "booking_pending_list": {
+      "loading": "Loading pending bookings...",
+      "error": "Error loading pending bookings",
+      "empty": "No pending bookings",
+      "empty_title": "No bookings yet",
+      "empty_description": "Pending payment bookings will appear here. Explore our amazing tours!",
+      "explore_tours": "Explore Tours",
+      "error_title": "Error occurred",
+      "error_description": "Unable to load booking list. Please try again later.",
+      "retry": "Retry"
+    },
+    "booking_other_list": {
+      "loading": "Loading other bookings...",
+      "error": "Error loading other bookings",
+      "empty": "No other bookings",
+      "empty_title": "No bookings yet",
+      "empty_description": "Completed, confirmed, or cancelled bookings will appear here.",
+      "explore_tours": "Explore Tours",
+      "error_title": "Error occurred",
+      "error_description": "Unable to load booking list. Please try again later.",
+      "retry": "Retry"
+    }
+  },
+  "payment": {
+    "success": {
+      "title": "Payment Successful!",
+      "description": "Thank you for booking the tour. We will contact you as soon as possible.",
+      "booking_confirmed": "Booking Confirmed",
+      "tour": "Tour",
+      "date": "Date",
+      "guests": "Guests",
+      "adults": "adults",
+      "children": "children",
+      "order_code": "Order Code",
+      "total_paid": "Total Paid",
+      "email_confirmation": "A confirmation email has been sent to your email address",
+      "save_order_code": "Save your order code to look up at /order/lookup",
+      "view_order_details": "View Order Details",
+      "browse_more_tours": "Browse More Tours",
+      "view_orders": "View Orders",
+      "back_home": "Back to Home",
+      "auto_redirect": "Auto redirect in {seconds} seconds"
+    },
+    "cancel": {
+      "title": "Payment Cancelled",
+      "description": "Your order has not been paid. You can try again or contact us for support.",
+      "order_code": "Order Code",
+      "booking_saved": "Don't worry - your booking is saved.",
+      "retry_or_browse": "You can retry payment or browse other tours.",
+      "retry_payment": "Retry Payment",
+      "browse_tours": "Browse Tours",
+      "back_home": "Back to Home",
+      "auto_redirect": "Auto redirect in {seconds} seconds"
+    }
+  },
+  "tourCreate": {
+    "title": "Create New Tour",
+    "image": "Image",
+    "required": "*",
+    "selectImage": "Select image",
+    "overview": "Overview",
+    "submit": "Submit",
+    "contactNumber": "Contact number",
+    "contactPerson": "Contact person",
+    "add": "Add",
+    "save": "Save",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "maxSlots": "Max Slots",
+    "slots": "slots",
+    "noAvailableDates": "No available dates yet. Click + to add.",
+    "availableDates": "Available Dates",
+    "included": "Included Services",
+    "excluded": "Excluded Services",
+    "itinerary": "Itinerary",
+    "addItinerary": "Add itinerary",
+    "remove": "Remove",
+    "ethnic": "Ethnic",
+    "location": "Location",
+    "status": "Status",
+    "duration": "Tour Duration (days)",
+    "pickupLocation": "Pick-up location",
+    "publishedDate": "Published Date",
+    "adultPrice": "Adult price",
+    "childPrice": "Child price",
+    "select": "Select",
+    "selectEthnic": "Select ethnic",
+    "selectLocation": "Select locations",
+    "selectPickupLocation": "Select pick-up location",
+    "chooseDate": "Choose date",
+    "selectEmployee": "Select employee",
+    "selectStartDateFirst": "Select start date first",
+    "dateConflictWarning": "Date Conflict Warning",
+    "publishedDateConflictMessage": "Published date must be at least 1 week before tour start date. Please check your selected dates.",
+    "availableDatesConflictMessage": "Tour dates are overlapping. Please select different dates.",
+    "itineraryTitle": "Itinerary title",
+    "itineraryDescription": "Itinerary description",
+    "validation": {
+      "imageRequired": "Image is required",
+      "titleRequired": "Title is required",
+      "locationRequired": "Location is required",
+      "ethnicRequired": "At least one ethnic is required",
+      "statusInvalid": "Invalid status value",
+      "pickupLocationRequired": "Pick-up location is required",
+      "publishedDateRequired": "Published date must be today or in the future",
+      "publishedDateMinWeek": "Published date must be at least 1 week after current date",
+      "duration": "Tour Duration",
+      "durationMin": "Tour duration must be at least 1 day",
+      "durationMax": "Tour duration must be at most 30 days",
+      "adultPriceMin": "Adult price must be greater than 0",
+      "childPriceMin": "Child price must be greater than 0",
+      "contactNameRequired": "Contact name is required",
+      "contactPhoneInvalid": "Phone number must be exactly 10 digits",
+      "includedRequired": "Included services required",
+      "excludedRequired": "Excluded services required",
+      "overviewRequired": "Overview is required",
+      "overviewMax": "Overview must not exceed 1000 characters",
+      "itineraryTitleRequired": "Itinerary title is required",
+      "itineraryDescriptionRequired": "Itinerary description is required",
+      "availableDatesRequired": "At least one available date is required",
+      "startDateRequired": "Start date is required",
+      "startDateAfterPublished": "Start date must be at least 1 week after published date",
+      "dateConflict": "Start date conflicts with existing tour dates",
+      "endDateRequired": "End date is required",
+      "maxSlotsMin": "Max slots must be at least 1",
+      "endDateAfterStart": "End date must be after or equal to start date",
+      "assignedEmployeesRequired": "At least one employee must be assigned for this date"
+    }
+  },
+  "chatbot": {
+    "title": "Travel Virtual Assistant",
+    "placeholder": "Ask about tours, destinations, culture...",
+    "welcome_message": "Hello! I'm a travel virtual assistant. I can help you learn about ethnic village tours, interesting destinations, and unique cultural experiences. What would you like to know?",
+    "error_message": "Sorry, an error occurred. Please try again.",
+    "typing_message": "Typing...",
+    "send_button": "Send message",
+    "open_button": "Open chatbot",
+    "close_button": "Close chatbot",
+    "minimize_button": "Minimize",
+    "expand_button": "Expand",
+    "guest_label": "Guest"
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact - Ethnic Village Travel",
+      "description": "Contact us for consultation and support about ethnic village tours"
+    },
+    "hero": {
+      "title": "Contact Us",
+      "description": "We're always ready to support you in your ethnic cultural exploration journey"
+    },
+    "info": {
+      "title": "Contact Information",
+      "phone": {
+        "title": "Phone",
+        "primary": "+84 123 456 789",
+        "secondary": "+84 987 654 321"
+      },
+      "email": {
+        "title": "Email",
+        "general": "info@ethnicvillagetravel.com",
+        "support": "support@ethnicvillagetravel.com"
+      },
+      "address": {
+        "title": "Address",
+        "line1": "123 Van Hoa Street",
+        "line2": "Ba Dinh District, Hanoi, Vietnam"
+      },
+      "hours": {
+        "title": "Business Hours",
+        "weekdays": "Monday - Friday: 8:00 AM - 6:00 PM",
+        "weekend": "Saturday - Sunday: 9:00 AM - 5:00 PM"
+      },
+      "social": {
+        "title": "Social Media",
+        "follow_us": "Follow us"
+      }
+    },
+    "form": {
+      "title": "Send Message",
+      "description": "Fill out the form below and we'll get back to you as soon as possible",
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Enter your full name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter your email address"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number"
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "Your message subject"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Write your message here..."
+      },
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success": "Your message has been sent successfully! We'll get back to you soon.",
+      "error": "An error occurred while sending your message. Please try again.",
+      "errors": {
+        "name_required": "Please enter your full name",
+        "name_min_length": "Name must be at least 2 characters",
+        "email_required": "Please enter your email address",
+        "email_invalid": "Invalid email address",
+        "phone_required": "Please enter your phone number",
+        "phone_invalid": "Invalid phone number",
+        "subject_required": "Please enter a subject",
+        "subject_min_length": "Subject must be at least 3 characters",
+        "message_required": "Please enter your message",
+        "message_min_length": "Message must be at least 10 characters"
+      }
+    },
+    "response_time": "We typically respond within 24 business hours"
+  },
+  "about": {
+    "meta": {
+      "title": "About Us - Ethnic Village Travel",
+      "description": "Discover our story and mission in connecting travelers with Vietnam's ethnic minority villages"
+    },
+    "hero": {
+      "title": "About Us",
+      "description": "Connecting you with authentic ethnic cultural experiences"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "We believe that travel can be a bridge between cultures, bringing benefits to both travelers and local communities. Our mission is to create meaningful, sustainable travel experiences that help preserve and promote the rich culture of Vietnam's ethnic minorities.",
+      "subtitle": "Our Story",
+      "story": "Founded with a passion for ethnic culture and sustainable tourism, Ethnic Village Travel has spent years building trusted relationships with local communities. We work directly with local families and guides to ensure each trip is not only memorable but also has a positive impact on the community."
+    },
+    "values": {
+      "title": "Core Values",
+      "items": {
+        "authenticity": {
+          "title": "Authentic Experiences",
+          "description": "We are committed to providing genuine cultural experiences that are not commercialized and respect local traditions"
+        },
+        "sustainability": {
+          "title": "Sustainable Tourism",
+          "description": "We prioritize responsible tourism activities that protect the environment and support local economies"
+        },
+        "community": {
+          "title": "Community Support",
+          "description": "A portion of revenue from each trip goes directly to local families and communities"
+        },
+        "quality": {
+          "title": "Service Quality",
+          "description": "We maintain the highest standards of safety, comfort, and customer service on every trip"
+        }
+      }
+    },
+    "stats": {
+      "title": "Our Achievements",
+      "years_experience": {
+        "value": "10+",
+        "label": "Years of Experience"
+      },
+      "tours_completed": {
+        "value": "5,000+",
+        "label": "Tours Completed"
+      },
+      "happy_customers": {
+        "value": "15,000+",
+        "label": "Happy Customers"
+      },
+      "villages_partnered": {
+        "value": "50+",
+        "label": "Partner Villages"
+      }
+    },
+    "cta": {
+      "title": "Ready to Explore?",
+      "description": "Join us on a journey to discover Vietnam's rich ethnic culture",
+      "explore_tours": "Explore Tours",
+      "contact_us": "Contact Us"
+    }
+  },
+  "services": {
+    "meta": {
+      "title": "Services - Ethnic Village Travel",
+      "description": "Explore our ethnic tourism services - from tour booking, custom tours to professional guides"
+    },
+    "hero": {
+      "title": "Our Services",
+      "description": "Experience comprehensive professional ethnic tourism services"
+    },
+    "list": {
+      "title": "Services We Offer",
+      "subtitle": "We provide comprehensive services to ensure your trip is complete and memorable",
+      "tour_booking": {
+        "title": "Online Tour Booking",
+        "description": "Easily search and book ethnic tours with our convenient online booking system",
+        "features": [
+          "Browse tours by ethnic group, location, and duration",
+          "View detailed itineraries and customer reviews",
+          "Secure online booking and payment",
+          "Instant booking confirmation via email"
+        ],
+        "cta": "Explore Tours"
+      },
+      "custom_tours": {
+        "title": "Custom Tours",
+        "description": "Create your own journey with specially designed tours tailored to your personal needs and preferences",
+        "features": [
+          "Flexible itinerary based on your requirements",
+          "Choose your preferred ethnic groups and activities",
+          "Suitable for groups and families",
+          "Free consultation from travel experts"
+        ],
+        "cta": "Contact for Consultation"
+      },
+      "guide_services": {
+        "title": "Professional Guides",
+        "description": "Experienced local guides with deep cultural knowledge and enthusiasm",
+        "features": [
+          "Local ethnic minority guides",
+          "Multi-language support (Vietnamese, English)",
+          "Deep knowledge of culture and traditions",
+          "Safety assurance and support throughout the journey"
+        ]
+      },
+      "additional_services": {
+        "title": "Additional Services",
+        "description": "Other support services to make your trip more convenient and comfortable",
+        "features": [
+          "Airport pickup and transportation",
+          "Hotel and homestay booking",
+          "Travel insurance",
+          "Visa and documentation support"
+        ]
+      }
+    }
+  },
+  "booking": {
+    "wizard": {
+      "back": "Back",
+      "continue": "Continue",
+      "processing": "Processing...",
+      "cancel_booking": "Cancel booking",
+      "steps": {
+        "guest_count": "Guest Count",
+        "contact_info": "Contact Info",
+        "guest_info": "Guest Info",
+        "review": "Review & Pay"
+      },
+      "guest_count": {
+        "selected_date": "Selected date",
+        "no_date_selected": "No date selected",
+        "available_slots": "Available slots",
+        "adult": "Adult",
+        "child": "Child",
+        "discount": "Discount",
+        "auto_applied": "Auto-applied",
+        "total": "Total",
+        "per_person": "person",
+        "errors": {
+          "guest_count_zero": "Please select at least 1 guest",
+          "exceeds_available_slots": "Guest count exceeds available slots"
+        }
+      },
+      "contact_info": {
+        "name": "Full Name",
+        "name_placeholder": "Enter your full name",
+        "email": "Email",
+        "email_placeholder": "Enter your email address",
+        "email_helper": "Example: example@email.com",
+        "phone": "Phone Number",
+        "phone_placeholder": "Enter phone number (10 digits)",
+        "phone_helper": "Example: 0901234567 or +84901234567",
+        "errors": {
+          "name_required": "Please enter your name",
+          "email_required": "Please enter your email",
+          "email_invalid": "Invalid email format",
+          "phone_required": "Please enter your phone number",
+          "phone_invalid": "Phone number must be 10 digits"
+        }
+      },
+      "guest_info": {
+        "booking_type_label": "Who is this booking for?",
+        "self_option": "I am the guest",
+        "self_description": "Contact information will be used for the guest",
+        "others_option": "Booking for someone else",
+        "others_description": "Enter the guest's information",
+        "guest_details_title": "Guest Details",
+        "auto_filled": "Auto-filled",
+        "name": "Full Name",
+        "name_placeholder": "Enter guest's full name",
+        "email": "Email",
+        "email_placeholder": "Enter guest's email address",
+        "email_helper": "Example: example@email.com",
+        "phone": "Phone Number",
+        "phone_placeholder": "Enter guest's phone number (10 digits)",
+        "phone_helper": "Example: 0901234567 or +84901234567",
+        "errors": {
+          "name_required": "Please enter the guest's name",
+          "email_required": "Please enter the guest's email",
+          "email_invalid": "Invalid email format",
+          "phone_required": "Please enter the guest's phone number",
+          "phone_invalid": "Phone number must be 10 digits"
+        }
+      },
+      "review": {
+        "edit": "Edit",
+        "guest_count_section": "Guest Count",
+        "contact_info_section": "Contact Information",
+        "guest_info_section": "Guest Information",
+        "tour_info": "Tour Information",
+        "date": "Date",
+        "adults": "Adults",
+        "children": "Children",
+        "total_guests": "Total Guests",
+        "same_as_contact": "Same as contact information",
+        "confirm_and_pay": "Confirm & Pay",
+        "retry": "Retry",
+        "payment_failed": "Payment failed. Please try again."
+      },
+      "summary": {
+        "title": "Booking Summary",
+        "date": "Date",
+        "guests": "Guests",
+        "adults": "Adults",
+        "children": "Children",
+        "subtotal": "Subtotal",
+        "discount": "Discount",
+        "total": "Total",
+        "not_selected": "Not selected"
+      },
+      "price_breakdown": {
+        "title": "Price Breakdown",
+        "adults": "Adults",
+        "children": "Children",
+        "subtotal": "Subtotal",
+        "total": "Total"
+      },
+      "promotion": {
+        "title": "Promotion Code",
+        "placeholder": "Enter promotion code",
+        "apply": "Apply",
+        "discount_applied": "{percent}% discount applied",
+        "errors": {
+          "expired": "Promotion code has expired",
+          "not_active": "Promotion code is not active",
+          "out_of_stock": "Promotion code is out of stock",
+          "invalid": "Invalid promotion code",
+          "validation_failed": "Failed to validate promotion code"
+        }
+      },
+      "error": {
+        "retry": "Retry",
+        "default_title": "An error occurred",
+        "offline_title": "No internet connection",
+        "offline_message": "Please check your internet connection. Actions will be queued and retried when connection is restored."
+      }
+    }
+  },
+  "article": {
+    "search": {
+      "placeholder": "Search articles...",
+      "button": "Search"
+    },
+    "list": {
+      "title": "Article List",
+      "sort": {
+        "newest": "Newest",
+        "oldest": "Oldest",
+        "most_viewed": "Most Viewed",
+        "most_voted": "Most Upvoted",
+        "relevance": "Most Relevant"
+      },
+      "results_count": "Found {count} results",
+      "searching": "Searching...",
+      "empty": {
+        "title": "No articles found",
+        "description": "Try adjusting your filters or search keywords"
+      }
+    },
+    "item": {
+      "views": "{count} views",
+      "upvotes": "{count} upvotes",
+      "read_time": "{minutes} min read",
+      "published_on": "Published on: {date}"
+    }
+  }
+}

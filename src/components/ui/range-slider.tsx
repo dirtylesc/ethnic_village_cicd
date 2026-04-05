@@ -1,0 +1,31 @@
+'use client';
+
+import * as React from 'react';
+import { cn } from '@/utils';
+import * as SliderPrimitive from '@radix-ui/react-slider';
+
+interface RangeSliderProps extends React.ComponentPropsWithoutRef<typeof SliderPrimitive.Root> {
+  value: [number, number];
+  onValueChange?: (value: [number, number]) => void;
+}
+
+const RangeSlider = React.forwardRef<React.ElementRef<typeof SliderPrimitive.Root>, RangeSliderProps>(
+  ({ className, value, onValueChange, ...props }, ref) => (
+    <SliderPrimitive.Root
+      ref={ref}
+      className={cn('relative flex w-full touch-none select-none items-center', className)}
+      value={value}
+      onValueChange={onValueChange}
+      {...props}
+    >
+      <SliderPrimitive.Track className="bg-primary/20 relative h-1.5 w-full grow overflow-hidden rounded-full">
+        <SliderPrimitive.Range className="absolute h-full bg-primary" />
+      </SliderPrimitive.Track>
+      <SliderPrimitive.Thumb className="border-primary/50 block h-4 w-4 rounded-full border bg-background shadow transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50" />
+      <SliderPrimitive.Thumb className="border-primary/50 block h-4 w-4 rounded-full border bg-background shadow transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50" />
+    </SliderPrimitive.Root>
+  ),
+);
+RangeSlider.displayName = 'RangeSlider';
+
+export { RangeSlider };

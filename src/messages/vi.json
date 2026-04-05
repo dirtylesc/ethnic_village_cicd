@@ -1,0 +1,1565 @@
+{
+  "common": {
+    "error_loading_list": "Có lỗi xảy ra khi tải danh sách",
+    "no_results": "Không có kết quả",
+    "view_more": "Xem thêm"
+  },
+  "uploading": "Đang tải ảnh...",
+  "clear_image": "Xóa ảnh",
+  "admin": {
+    "status": {
+      "DRAFT": "Nháp",
+      "REVIEWING": "Chờ duyệt",
+      "REJECTED": "Từ chối",
+      "APPROVED": "Đã duyệt",
+      "SCHEDULED": "Đã lên lịch",
+      "PUBLISHED": "Đã xuất bản",
+      "AVAILABLE": "Sẵn sàng",
+      "FULLY_BOOKED": "Đã kín chỗ",
+      "ONGOING": "Đang diễn ra",
+      "PAUSED": "Tạm dừng",
+      "COMPLETED": "Đã hoàn thành",
+      "CANCELLED": "Đã hủy"
+    },
+    "sidebar": {
+      "section": {
+        "general": "Tổng quan",
+        "users": "Người dùng & Phân quyền",
+        "business": "Kinh doanh",
+        "content": "Nội dung & Tiện ích",
+        "functions": "Chức năng"
+      },
+      "dashboard": "Bảng điều khiển",
+      "user": "Khách hàng",
+      "employee": "Nhân viên",
+      "role": "Vai trò & Quyền",
+      "tour": "Quản lý Tour",
+      "category": "Danh mục trang chủ",
+      "promotion": "Khuyến mãi",
+      "tour_assigned_available_dates": "Phân công hướng dẫn viên",
+      "booking": "Quản lý đặt chỗ",
+      "order": "Quản lý đơn hàng",
+      "article": "Quản lý bài viết",
+      "notification": "Thông báo hệ thống",
+      "report": "Báo cáo & Thống kê",
+      "chatbot": "Trợ lý ảo",
+      "logout": "Đăng xuất"
+    },
+    "search_command": {
+      "trigger_placeholder": "Tìm nhanh trong trang quản trị...",
+      "input_placeholder": "Nhập để tìm trang hoặc thao tác...",
+      "empty": "Không tìm thấy kết quả phù hợp.",
+      "sections": {
+        "general": "Tổng quan",
+        "management": "Quản lý nghiệp vụ",
+        "create": "Tạo mới"
+      },
+      "items": {
+        "general": {
+          "dashboard": "Bảng điều khiển",
+          "user": "Khách hàng",
+          "employee": "Nhân viên",
+          "role": "Vai trò & Quyền"
+        },
+        "management": {
+          "tour": "Tour",
+          "category": "Danh mục trang chủ",
+          "tour_assignment": "Phân công hướng dẫn viên",
+          "booking": "Đặt chỗ",
+          "order": "Đơn hàng",
+          "article": "Bài viết",
+          "notification": "Thông báo hệ thống",
+          "report": "Báo cáo & Thống kê",
+          "chatbot": "Trợ lý ảo"
+        },
+        "create": {
+          "user": "Tạo khách hàng",
+          "employee": "Tạo nhân viên",
+          "role": "Tạo vai trò",
+          "tour": "Tạo tour",
+          "article": "Tạo bài viết",
+          "notification": "Tạo thông báo",
+          "chatbot": "Tạo nội dung chatbot"
+        }
+      }
+    },
+    "article": {
+      "list": {
+        "title": "Quản lý bài viết",
+        "description": "Tìm kiếm, chỉnh sửa, xuất bản hoặc xóa bài viết",
+        "search": "Tìm kiếm",
+        "status": "Trạng thái",
+        "all": "Tất cả",
+        "column_title": "Tiêu đề",
+        "column_status": "Trạng thái",
+        "column_created_at": "Ngày tạo",
+        "column_updated_at": "Ngày cập nhật",
+        "column_actions": "Hành động",
+        "empty": "Không có bài viết",
+        "create": "Tạo bài viết",
+        "edit": "Sửa",
+        "publish": "Xuất bản",
+        "unpublish": "Gỡ xuống",
+        "delete": "Xóa",
+        "prev": "Trước",
+        "next": "Sau",
+        "confirm_delete": "Bạn có chắc muốn xóa bài viết này?",
+        "toast_delete_success": "Đã xóa bài viết",
+        "toast_delete_failed": "Xóa bài viết thất bại",
+        "toast_status_success": "Cập nhật trạng thái thành công",
+        "toast_status_failed": "Cập nhật trạng thái thất bại",
+        "open_menu": "Mở menu"
+      },
+      "form": {
+        "title_create": "Tạo bài viết",
+        "title_edit": "Chỉnh sửa bài viết",
+        "subtitle_create": "Điền thông tin và lưu lại để xuất bản sau",
+        "subtitle_edit": "Cập nhật nội dung và trạng thái",
+        "info": "Thông tin bài viết",
+        "field_title": "Tiêu đề *",
+        "field_slug": "Slug",
+        "field_status": "Trạng thái",
+        "field_thumbnail": "Ảnh thumbnail",
+        "field_summary": "Tóm tắt",
+        "field_content": "Nội dung *",
+        "field_tags": "Tags",
+        "save": "Lưu bài viết",
+        "saving": "Đang lưu...",
+        "back": "Quay lại",
+        "not_found": "Không tìm thấy bài viết",
+        "toast_create_success": "Tạo bài viết thành công",
+        "toast_create_failed": "Tạo bài viết thất bại",
+        "toast_update_success": "Cập nhật bài viết thành công",
+        "toast_update_failed": "Cập nhật bài viết thất bại",
+        "uploading": "Đang tải ảnh...",
+        "clear_image": "Xóa ảnh"
+      }
+    },
+    "tour": {
+      "list": {
+        "tour": "Tour",
+        "ethnic": "Dân tộc",
+        "rating": "Đánh giá",
+        "price": "Giá",
+        "status": "Trạng thái",
+        "adult": "Người lớn",
+        "child": "Trẻ em",
+        "duration": "Thời lượng",
+        "day": "ngày",
+        "night": "đêm",
+        "average_rating": "Đánh giá trung bình",
+        "reviews_count": "Số đánh giá",
+        "edit": "Chỉnh sửa",
+        "delete": "Xóa",
+        "change_status": "Đổi trạng thái",
+        "no_title": "Không có tiêu đề",
+        "search_tour": "Tìm kiếm tour...",
+        "tour_list_title": "Danh sách tour",
+        "tour_list_description": "Quản lý toàn bộ tour, theo dõi trạng thái và tình hình đặt chỗ một cách hiệu quả.",
+        "import": "Nhập dữ liệu",
+        "add_tour": "Thêm tour",
+        "update_status": "Cập nhật trạng thái",
+        "export_tasks": "Xuất dữ liệu",
+        "delete_tasks": "Xóa mục đã chọn",
+        "are_you_sure": "Bạn có chắc chắn không?",
+        "delete_warning": "Hành động này không thể hoàn tác. Điều này sẽ xóa vĩnh viễn {count} tour khỏi hệ thống.",
+        "cancel": "Hủy",
+        "reset_filters": "Đặt lại bộ lọc",
+        "published_utc": "Ngày xuất bản (UTC)",
+        "created_utc": "Ngày tạo (UTC)",
+        "updated_utc": "Ngày cập nhật (UTC)",
+        "open_menu": "Mở menu"
+      },
+      "assigned_dates": {
+        "tour": "Tour",
+        "available_date": "Ngày khả dụng",
+        "assigned_date": "Ngày phân công",
+        "status": "Trạng thái",
+        "assigned_employee": "Nhân viên được phân công",
+        "assigned_by": "Bởi",
+        "no_employee": "Không có nhân viên",
+        "pickup_location": "Nơi đón khách",
+        "request_cancel": "Yêu cầu hủy",
+        "open_menu": "Mở menu",
+        "cancel_confirm_title": "Xác nhận yêu cầu hủy",
+        "cancel_confirm_message": "Bạn có chắc chắn muốn gửi yêu cầu hủy phân công tour này không?",
+        "cancel": "Hủy",
+        "confirm": "Xác nhận",
+        "booked_slots": "{count} chỗ",
+        "duration": "{days} ngày - {nights} đêm",
+        "no_title": "Không có tiêu đề",
+        "all_assignments": "Tất cả ngày được phân công",
+        "my_assignments": "Ngày được phân công của tôi",
+        "all_assignments_description": "Xem tất cả ngày khả dụng được phân công cho nhân viên",
+        "my_assignments_description": "Xem các ngày khả dụng được phân công cho bạn",
+        "search_tour": "Tìm kiếm theo tên tour...",
+        "date_range": "Khoảng thời gian",
+        "from_date": "Từ ngày",
+        "to_date": "Đến ngày",
+        "clear_filters": "Xóa bộ lọc",
+        "filter_status": "Trạng thái",
+        "filter_employee": "Lọc theo nhân viên",
+        "select_employees": "Chọn nhân viên...",
+        "calendar_view": "Xem lịch phân công",
+        "my_calendar": "Lịch của tôi",
+        "calendar_description": "Xem lịch phân công theo tháng",
+        "assignments_this_month": "phân công trong tháng này",
+        "select_date": "Chọn ngày",
+        "assignments": "phân công",
+        "no_assignments": "Không có phân công",
+        "no_assignments_on_date": "Không có phân công nào vào ngày này",
+        "select_date_to_view": "Chọn ngày để xem chi tiết phân công",
+        "guide": "Hướng dẫn viên",
+        "table_view": "Bảng",
+        "error_loading": "Không thể tải dữ liệu",
+        "no_data": "Không có dữ liệu",
+        "actions": "Hành động",
+        "not_available": "Không có",
+        "update_status": "Cập nhật trạng thái",
+        "update_status_title": "Cập nhật trạng thái tour",
+        "current_status": "Trạng thái hiện tại",
+        "select_new_status": "Chọn trạng thái mới",
+        "status_updated_success": "Đã cập nhật",
+        "status_updated_desc": "Trạng thái tour đã được cập nhật thành công",
+        "status_update_failed": "Cập nhật thất bại",
+        "no_status_transition_available": "Không có trạng thái khả dụng để chuyển từ trạng thái hiện tại",
+        "view_history": "Xem lịch sử"
+      }
+    },
+    "booking": {
+      "list": {
+        "title": "Quản lý đặt chỗ",
+        "description": "Theo dõi và xử lý tất cả các đặt chỗ từ khách hàng một cách hiệu quả",
+        "export": "Xuất dữ liệu",
+        "export_title": "Danh sách Booking",
+        "filter": {
+          "tour": "Chọn tour",
+          "tour_dates": "Chọn ngày tour",
+          "status": "Trạng thái",
+          "date_range": "Khoảng thời gian booking"
+        },
+        "table": {
+          "id": "Mã booking",
+          "booking_id": "Mã booking",
+          "tour_title": "Tên tour",
+          "tour_name": "Tên tour",
+          "tour_date": "Ngày tour",
+          "booker": "Người đặt",
+          "booker_name": "Tên người đặt",
+          "booker_phone": "Số điện thoại",
+          "status": "Trạng thái",
+          "pricing": "Giá tiền",
+          "total_price": "Tổng tiền",
+          "participants": "Số người",
+          "payment_date": "Ngày thanh toán",
+          "payment_method": "Phương thức thanh toán",
+          "payment_status": "Trạng thái thanh toán",
+          "created_at": "Ngày tạo",
+          "actions": "Thao tác",
+          "view_detail": "Xem chi tiết"
+        },
+        "status": {
+          "pending_payment": "Chờ thanh toán",
+          "failed_payment": "Thanh toán thất bại",
+          "draft": "Mới tạo",
+          "paid": "Đã thanh toán",
+          "confirmed": "Đã xác nhận",
+          "in_progress": "Đang thực hiện",
+          "cancelled_by_user": "Hủy bởi khách hàng",
+          "cancelled_by_admin": "Hủy bởi admin",
+          "completed": "Hoàn thành",
+          "refunded": "Đã hoàn tiền"
+        },
+        "payment_status": {
+          "pending": "Chờ thanh toán",
+          "partial": "Thanh toán một phần",
+          "paid": "Đã thanh toán",
+          "refunded": "Đã hoàn tiền"
+        },
+        "actions": {
+          "title": "Hành động",
+          "view_details": "Xem chi tiết"
+        }
+      }
+    },
+    "available_date_status": {
+      "AVAILABLE": "Khả dụng",
+      "FULLY_BOOKED": "Đã đầy",
+      "ONGOING": "Đang diễn ra",
+      "COMPLETED": "Hoàn thành",
+      "CANCELLED": "Đã hủy",
+      "PAUSED": "Tạm dừng"
+    },
+    "dashboard": {
+      "title": "Bảng điều khiển",
+      "welcome": "Chào mừng trở lại! Đây là tổng quan hoạt động kinh doanh của bạn.",
+      "error_loading": "Không thể tải dữ liệu",
+      "sections": {
+        "key_metrics": "Chỉ số then chốt",
+        "operations": "Quản lý vận hành",
+        "analytics": "Biểu đồ & Phân tích",
+        "recent_activity": "Hoạt động gần đây"
+      },
+      "metrics": {
+        "total_revenue": "Tổng doanh thu",
+        "total_revenue_desc": "Doanh thu trong tháng này",
+        "new_bookings": "Booking mới",
+        "new_bookings_desc": "Số đơn đặt tour hôm nay",
+        "upcoming_departures": "Tour sắp khởi hành",
+        "upcoming_departures_desc": "Tour chạy trong 48h tới",
+        "pending_bookings": "Yêu cầu giữ chỗ",
+        "pending_bookings_desc": "Chờ thanh toán, cần chốt gấp",
+        "compared_to_last_month": "so với tháng trước"
+      },
+      "upcoming_departures": {
+        "title": "Lịch khởi hành sắp tới",
+        "description": "Các tour sẽ khởi hành trong 7 ngày tới",
+        "tour_name": "Tên Tour",
+        "departure_date": "Ngày đi",
+        "slots": "Số chỗ",
+        "status": "Trạng thái",
+        "empty": "Không có tour khởi hành trong thời gian này"
+      },
+      "revenue_chart": {
+        "title": "Biểu đồ doanh thu",
+        "description": "So sánh doanh thu với cùng kỳ tháng trước",
+        "current": "Doanh thu thực tế",
+        "previous": "Cùng kỳ tháng trước"
+      },
+      "top_destinations": {
+        "title": "Top điểm đến",
+        "description": "Phân bổ booking theo địa điểm trong tháng",
+        "empty": "Chưa có dữ liệu booking"
+      },
+      "recent_bookings": {
+        "title": "Booking vừa đặt",
+        "description": "Các đơn đặt mới nhất cần xử lý",
+        "id": "ID",
+        "customer": "Khách hàng",
+        "tour": "Tour",
+        "departure_date": "Ngày đi",
+        "total": "Tổng tiền",
+        "status": "Trạng thái",
+        "empty": "Chưa có booking mới"
+      }
+    },
+    "role": {
+      "list": {
+        "title": "Quản lý vai trò",
+        "description": "Quản lý các vai trò và quyền truy cập trong hệ thống",
+        "createNew": "Tạo vai trò",
+        "empty": "Chưa có vai trò nào",
+        "table": {
+          "name": "Tên vai trò",
+          "description": "Mô tả",
+          "permissions": "Quyền",
+          "users": "Người dùng",
+          "actions": "Hành động"
+        },
+        "actions": {
+          "edit": "Chỉnh sửa",
+          "delete": "Xóa"
+        }
+      },
+      "create": {
+        "title": "Tạo vai trò mới",
+        "description": "Tạo và cấu hình vai trò với các quyền truy cập phù hợp cho người dùng trong hệ thống",
+        "role_name_label": "Tên vai trò",
+        "role_name_placeholder": "Ví dụ: Biên tập viên nội dung",
+        "permissions_label": "Quyền truy cập",
+        "selected_permissions_label": "Quyền đã chọn",
+        "reset": "Đặt lại",
+        "create": "Tạo vai trò",
+        "creating": "Đang tạo..."
+      },
+      "delete": {
+        "title": "Xóa vai trò",
+        "description": "Bạn có chắc chắn muốn xóa vai trò \"{name}\"? Hành động này không thể hoàn tác.",
+        "cancel": "Hủy",
+        "confirm": "Xóa"
+      },
+      "edit": {
+        "title": "Chỉnh sửa vai trò",
+        "description": "Cập nhật thông tin và quyền truy cập cho vai trò"
+      }
+    },
+    "category": {
+      "title": "Quản lý danh mục",
+      "add_category": "Thêm danh mục",
+      "name": "Tên danh mục",
+      "description": "Mô tả",
+      "tour_count": "Số tour",
+      "display_order": "Thứ tự",
+      "status": "Trạng thái",
+      "actions": "Hành động",
+      "no_categories": "Chưa có danh mục nào",
+      "delete_confirm_title": "Xác nhận xóa",
+      "delete_confirm_description": "Bạn có chắc chắn muốn xóa danh mục này?",
+      "cancel": "Hủy",
+      "delete": "Xóa",
+      "create_title": "Tạo danh mục mới",
+      "edit_title": "Chỉnh sửa danh mục",
+      "category_info": "Thông tin danh mục",
+      "name_placeholder": "Nhập tên danh mục",
+      "description_placeholder": "Mô tả ngắn về danh mục",
+      "image_url": "URL ảnh đại diện",
+      "enable_on_homepage": "Hiển thị trên trang chủ",
+      "creating": "Đang tạo...",
+      "create": "Tạo danh mục",
+      "saving": "Đang lưu...",
+      "save": "Lưu thay đổi",
+      "tours_in_category": "Tour trong danh mục",
+      "add_tour": "Thêm tour",
+      "add_tour_dialog_title": "Tìm và thêm tour",
+      "search_tour_placeholder": "Nhập tên tour để tìm kiếm",
+      "search": "Tìm",
+      "no_results": "Không tìm thấy kết quả",
+      "no_tours": "Chưa có tour nào trong danh mục"
+    },
+    "promotion": {
+      "title": "Quản lý khuyến mãi",
+      "description": "Quản lý các chương trình khuyến mãi và mã giảm giá",
+      "create": "Tạo khuyến mãi",
+      "edit": "Chỉnh sửa",
+      "delete": "Xóa",
+      "status": "Trạng thái",
+      "code": "Mã",
+      "discount": "Giảm giá",
+      "start_date": "Ngày bắt đầu",
+      "end_date": "Ngày kết thúc",
+      "empty": "Chưa có khuyến mãi nào"
+    }
+  },
+  "home": {
+    "title": "Xin chào!",
+    "about": "Đi tới trang giới thiệu",
+    "tour": {
+      "title": "Điểm Đến Tuyệt Vời Cho Kỳ Nghỉ",
+      "description": "Điểm Đến Tuyệt Vời Cho Kỳ Nghỉ",
+      "popular": "Phổ biến",
+      "outstanding": "Nổi bật",
+      "best_price": "Giá tốt nhất"
+    },
+    "article": {
+      "title": "Travel Vibes – Cảm Nhận Mỗi Hành Trình",
+      "description": "Những câu chuyện, mẹo và cảm hứng cho mọi tâm hồn yêu du lịch"
+    },
+    "reasons": [
+      {
+        "icon": "reason-icon.png",
+        "title": "Đáp ứng mọi nhu cầu của bạn",
+        "description": "Từ chuyến bay, chỗ ở đến các điểm tham quan, bạn có thể tin tưởng vào sản phẩm và Hướng dẫn Du lịch đầy đủ của chúng tôi."
+      },
+      {
+        "icon": "reason-icon.png",
+        "title": "Giá cả hợp lý",
+        "description": "Chúng tôi cam kết mang đến cho bạn những trải nghiệm du lịch tuyệt vời với mức giá phải chăng nhất."
+      },
+      {
+        "icon": "reason-icon.png",
+        "title": "Hỗ trợ 24/7",
+        "description": "Đội ngũ hỗ trợ của chúng tôi luôn sẵn sàng giúp đỡ bạn mọi lúc, mọi nơi trong suốt chuyến đi."
+      }
+    ]
+  },
+  "bookmark": {
+    "auth_required": "Vui lòng đăng nhập để lưu mục này",
+    "add_tooltip": "Thêm vào danh sách đã lưu",
+    "remove_tooltip": "Xóa khỏi danh sách đã lưu",
+    "save": "Lưu",
+    "saved": "Đã lưu"
+  },
+  "search": {
+    "location_placeholder": "Chọn địa điểm",
+    "keyword_placeholder": "Tìm kiếm điểm đến...",
+    "date_placeholder": "Chọn ngày",
+    "search_button": "Tìm kiếm",
+    "searching": "Đang tìm kiếm...",
+    "no_results": "Không tìm thấy kết quả",
+    "results_count": "Tìm thấy {count} tour",
+    "clear_search": "Xóa bộ lọc",
+    "search_error": "Đã xảy ra lỗi khi tìm kiếm"
+  },
+  "filters": {
+    "ethnic": {
+      "title": "Dân tộc"
+    },
+    "popular": {
+      "title": "Bộ lọc phổ biến",
+      "on_sale": "ĐANG GIẢM GIÁ"
+    },
+    "location": {
+      "title": "Địa điểm"
+    },
+    "tags": {
+      "title": "Thẻ"
+    },
+    "duration": {
+      "title": "Thời gian",
+      "1_day": "1 Ngày",
+      "2_3_days": "2-3 Ngày",
+      "4_7_days": "4-7 Ngày",
+      "7_plus_days": "7+ Ngày"
+    },
+    "rating": {
+      "title": "Đánh giá",
+      "5_stars": "5 sao",
+      "4_stars_up": "Từ 4 sao trở lên",
+      "3_stars_up": "Từ 3 sao trở lên"
+    },
+    "price": {
+      "title": "Giá"
+    }
+  },
+  "tour": {
+    "item": {
+      "max_slots": "Tối đa: {slots}",
+      "duration": "{days} ngày - {nights} đêm",
+      "pickup_location": "Điểm đón: {location}",
+      "price": "{price}/người"
+    },
+    "list": {
+      "title": "Tours",
+      "search_results": "Kết quả tìm kiếm cho \"{keyword}\"",
+      "filter_by": "Lọc theo",
+      "clear_filters": "Xóa bộ lọc",
+      "empty": {
+        "title": "Không tìm thấy tour nào",
+        "description": "Hãy thử điều chỉnh bộ lọc để tìm thấy điều bạn đang tìm kiếm."
+      },
+      "sort": {
+        "placeholder": "Sắp xếp theo",
+        "default": "Mặc định",
+        "price_low_high": "Giá: Thấp đến Cao",
+        "price_high_low": "Giá: Cao đến Thấp",
+        "rating": "Đánh giá",
+        "duration": "Thời gian"
+      }
+    },
+    "edit": {
+      "title": "Chỉnh sửa Tour"
+    },
+    "update": {
+      "success": "Cập nhật tour thành công"
+    },
+    "detail": {
+      "review": "Đánh giá",
+      "days": "Ngày",
+      "location": "Địa điểm",
+      "ethnic": "Dân tộc",
+      "duration_format": "{days} Ngày/{nights} Đêm",
+      "share": "Chia sẻ",
+      "share_success": "Đã sao chép liên kết tour",
+      "share_error": "Không thể chia sẻ, vui lòng thử lại",
+      "overview_tab": "Tổng quan",
+      "reviews_tab": "Đánh giá",
+      "loading": "Đang tải thông tin tour...",
+      "not_found": "Không tìm thấy tour",
+      "overview": {
+        "title": "Tổng quan chuyến đi",
+        "included_excluded": "Dịch vụ bao gồm/không bao gồm",
+        "trip_plan": "Lịch trình",
+        "no_overview": "Không có thông tin tổng quan",
+        "day_label": "Ngày {day}"
+      },
+      "similar": {
+        "title": "Tour tương tự",
+        "empty": {
+          "title": "Không tìm thấy tour tương tự",
+          "description": "Hiện tại không có tour tương tự nào cho tour này.",
+          "browse_all_tours": "Xem tất cả tours"
+        }
+      },
+      "booking": {
+        "title": "Đặt tour này",
+        "adult": "Người lớn",
+        "child": "Trẻ em",
+        "adult_price": "${price}/người lớn",
+        "child_price": "${price}/trẻ em",
+        "total": "Tổng cộng",
+        "book_now": "Đặt ngay",
+        "available_slots": "Còn {count} chỗ",
+        "no_slots": "Hết chỗ",
+        "select_date": "Vui lòng chọn ngày",
+        "booking_failed": "Đặt tour thất bại",
+        "booking_failed_out_of_stock": "Hết chỗ",
+        "booking_failed_invalid_data": "Dữ liệu không hợp lệ",
+        "discount": "Giảm giá",
+        "max": "Tối đa",
+        "disabled_reasons": {
+          "select_date": "Vui lòng chọn ngày",
+          "no_slots": "Đã hết chỗ",
+          "select_guests": "Vui lòng chọn số lượng khách",
+          "exceed_slots": "Chỉ còn {count} chỗ",
+          "invalid_price": "Tổng tiền phải lớn hơn 0"
+        }
+      },
+      "reviews": {
+        "total_reviews": "{count} đánh giá",
+        "average_rating": "Đánh giá trung bình",
+        "add_review": "Thêm đánh giá của bạn",
+        "your_rating": "Đánh giá của bạn",
+        "your_review": "Nội dung đánh giá",
+        "submit": "Gửi đánh giá",
+        "submitting": "Đang gửi...",
+        "load_more": "Xem thêm đánh giá",
+        "no_reviews": "Chưa có đánh giá nào",
+        "no_name": "Người ẩn danh",
+        "edit": "Chỉnh sửa",
+        "delete": "Xóa",
+        "pin": "Ghim",
+        "unpin": "Bỏ ghim",
+        "report": "Báo cáo",
+        "placeholder": "Viết đánh giá của bạn tại đây...",
+        "delete_confirm": "Bạn có chắc chắn muốn xóa đánh giá này?",
+        "report_confirm": "Bạn có chắc chắn muốn báo cáo đánh giá này?"
+      },
+      "available_tickets": {
+        "title": "Lịch khởi hành",
+        "available_slots": "Còn {count} chỗ",
+        "no_slots": "Hết chỗ",
+        "special_price": "Giá đặc biệt"
+      },
+      "guild_profile": {
+        "experience": "Kinh nghiệm: {years} năm",
+        "languages": "Ngôn ngữ",
+        "achievements": "Thành tích",
+        "description": "Hơn cả một hướng dẫn viên, là người bạn đồng hành chia sẻ những câu chuyện địa phương.",
+        "contact_title": "Liên hệ tour",
+        "contact_phone": "Điện thoại",
+        "contact_email": "Email",
+        "contact_zalo": "Zalo",
+        "contact_whatsapp": "WhatsApp",
+        "pickup_location": "Điểm đón",
+        "contact_missing": "Chưa có thông tin liên hệ"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "welcome": "Chào mừng trở lại",
+      "please_login": "Vui lòng đăng nhập để tiếp tục",
+      "email": "Email",
+      "email_placeholder": "Nhập email của bạn",
+      "password": "Mật khẩu",
+      "password_placeholder": "Nhập mật khẩu của bạn",
+      "remember_me": "Ghi nhớ đăng nhập",
+      "forgot_password": "Quên mật khẩu?",
+      "no_account": "Chưa có tài khoản?",
+      "signup": "Đăng ký",
+      "sign_in": "Đăng nhập",
+      "signing_in": "Đang đăng nhập...",
+      "login_success": "Đăng nhập thành công"
+    },
+    "signup": {
+      "go_to_login": "Đăng nhập",
+      "create_account": "Tạo tài khoản mới",
+      "please_enter_details": "Vui lòng nhập thông tin",
+      "first_name": "Tên",
+      "first_name_placeholder": "Nhập tên của bạn",
+      "last_name": "Họ",
+      "last_name_placeholder": "Nhập họ của bạn",
+      "email": "Email",
+      "email_placeholder": "Nhập email của bạn",
+      "password": "Mật khẩu",
+      "password_placeholder": "Nhập mật khẩu của bạn",
+      "agree_to_terms": "Tôi đồng ý với điều khoản và điều kiện",
+      "sign_up": "Đăng ký",
+      "already_have_account": "Đã có tài khoản?"
+    },
+    "forgot_password": {
+      "back": "Quay lại",
+      "title": "Quên mật khẩu",
+      "description": "Nhập địa chỉ email đã đăng ký. Chúng tôi sẽ gửi mã để đặt lại mật khẩu của bạn.",
+      "email": "Địa chỉ email",
+      "email_placeholder": "Nhập email của bạn",
+      "send_otp": "Gửi mã OTP"
+    },
+    "enter_otp": {
+      "back": "Quay lại",
+      "title": "Nhập mã OTP",
+      "description": "Chúng tôi đã gửi mã đến địa chỉ email đã đăng ký của bạn",
+      "verify_otp": "Xác thực OTP"
+    }
+  },
+  "layout": {
+    "header": {
+      "nav": {
+        "home": "Trang chủ",
+        "about": "Giới thiệu",
+        "services": "Dịch vụ",
+        "destinations": "Điểm đến",
+        "blog": "Bài viết",
+        "contact": "Liên hệ"
+      },
+      "auth": {
+        "sign_in": "Đăng nhập",
+        "sign_up": "Đăng ký"
+      },
+      "user_menu": {
+        "notifications": "Thông báo",
+        "no_notifications": "Không có thông báo",
+        "unread_notifications": "{count} thông báo chưa đọc",
+        "profile": {
+          "favorites": "Yêu thích",
+          "transactions": "Lịch sử giao dịch",
+          "edit_profile": "Chỉnh sửa hồ sơ",
+          "logout": "Đăng xuất"
+        }
+      }
+    },
+    "footer": {
+      "about": {
+        "title": "Về chúng tôi",
+        "our_story": "Câu chuyện của chúng tôi",
+        "team": "Đội ngũ",
+        "careers": "Tuyển dụng",
+        "testimonials": "Đánh giá",
+        "partners": "Đối tác",
+        "press": "Báo chí",
+        "blog": "Bài viết"
+      },
+      "support": {
+        "title": "Hỗ trợ",
+        "help_center": "Trung tâm trợ giúp",
+        "safety": "Thông tin an toàn",
+        "cancellation": "Chính sách hủy",
+        "covid": "Phản ứng COVID-19",
+        "accessibility": "Khả năng tiếp cận",
+        "report": "Báo cáo vấn đề"
+      },
+      "destinations": {
+        "title": "Điểm đến",
+        "ha_giang": "Hà Giang",
+        "sapa": "Sa Pa",
+        "mu_cang_chai": "Mù Cang Chải",
+        "mai_chau": "Mai Châu",
+        "ba_be": "Ba Bể",
+        "kon_tum": "Kon Tum",
+        "dak_nong": "Đắk Nông"
+      },
+      "newsletter": {
+        "title": "Luôn được cập nhật về các lời khuyên du lịch",
+        "email_placeholder": "Địa chỉ email của bạn",
+        "subscribe": "Đăng ký"
+      },
+      "copyright": "©2023 Travo Bảo lưu mọi quyền"
+    }
+  },
+  "order": {
+    "title": "Xác nhận đặt tour",
+    "payment_expired_title": "Đơn đặt tour đã hết hạn",
+    "payment_expired_message": "Thời gian thanh toán cho đơn đặt tour này đã hết hạn. Vui lòng liên hệ hỗ trợ hoặc tạo đơn đặt mới.",
+    "confirm_failed": "Xác nhận đặt tour thất bại",
+    "confirm_failed_description": "Không thể xác nhận đơn đặt tour. Vui lòng thử lại.",
+    "success_title": "Đặt tour thành công",
+    "order_code": "Mã đơn hàng",
+    "not_found_title": "Không tìm thấy đơn hàng",
+    "not_found_message": "Đơn hàng không tồn tại hoặc đã bị xóa.",
+    "tour_info_title": "Thông tin tour",
+    "start_date": "Ngày khởi hành",
+    "adults": "người lớn",
+    "children": "trẻ em",
+    "contact_info_title": "Thông tin liên hệ",
+    "payment_info": "Thông tin thanh toán",
+    "total_paid": "Tổng thanh toán",
+    "email_sent": "Email xác nhận đã được gửi đến địa chỉ email của bạn.",
+    "browse_tours": "Khám phá thêm tour",
+    "view_bookings": "Xem đơn đặt của tôi",
+    "lookup": {
+      "title": "Tra cứu đơn hàng",
+      "placeholder": "Nhập mã đơn hàng",
+      "enter_order_code": "Vui lòng nhập mã đơn hàng",
+      "not_found": "Không tìm thấy đơn hàng với mã này",
+      "order_found": "Thông tin đơn hàng",
+      "order_code": "Mã đơn hàng",
+      "tour_info": "Thông tin tour",
+      "adults": "người lớn",
+      "children": "trẻ em",
+      "contact_info": "Thông tin liên hệ",
+      "total_paid": "Tổng thanh toán"
+    },
+    "additional_info": {
+      "title": "Yêu cầu bổ sung (không bắt buộc)",
+      "placeholder": "Chia sẻ trải nghiệm của bạn...",
+      "format_note": "Định dạng: Tiếng Anh hoặc ngôn ngữ địa phương tại điểm đến. Yêu cầu tùy thuộc vào tình hình thực tế của nhà cung cấp."
+    },
+    "contact_info": {
+      "title": "Thông tin liên hệ",
+      "booker_name": "Họ tên",
+      "booker_phone": "Số điện thoại",
+      "booker_email": "Email",
+      "enter_name": "Nhập họ tên của bạn",
+      "enter_phone": "Nhập số điện thoại của bạn",
+      "enter_email": "Nhập email của bạn",
+      "visitor": "Tôi là khách tham quan",
+      "order_for_others": "Đặt cho người khác"
+    },
+    "guest_info": {
+      "title": "Thông tin khách",
+      "name": "Họ tên",
+      "phone": "Số điện thoại",
+      "email": "Email",
+      "enter_name": "Nhập họ tên của bạn",
+      "enter_phone": "Nhập số điện thoại của bạn",
+      "enter_email": "Nhập email của bạn"
+    },
+    "tour_info": {
+      "tour_guide": "Hướng dẫn viên",
+      "pickup_location": "Điểm đón",
+      "review": "Đánh giá",
+      "days": "Ngày",
+      "location": "Địa điểm",
+      "adults": "Người lớn",
+      "children": "Trẻ em"
+    },
+    "booking_calculator": {
+      "adult": "Người lớn",
+      "children": "Trẻ em",
+      "coupon_discount": "Mã giảm giá",
+      "enter_promotion": "Nhập mã khuyến mãi",
+      "book_now": "Đặt ngay",
+      "confirm_failed": "Đặt tour thất bại",
+      "contact_info_required": "Thông tin liên hệ là bắt buộc",
+      "guest_info_required": "Thông tin khách là bắt buộc",
+      "payment_success": "Thanh toán thành công",
+      "payment_success_description": "Đơn hàng của bạn đã được thanh toán thành công",
+      "payment_cancelled": "Thanh toán đã bị hủy"
+    },
+    "pick_drop_location": {
+      "title": "Điểm đón/trả khách",
+      "location": "Địa điểm",
+      "address": "Địa chỉ"
+    },
+    "promotion": {
+      "errors": {
+        "not_found": "Không tìm thấy mã khuyến mãi",
+        "inactive": "Mã khuyến mãi chưa được kích hoạt",
+        "expired": "Mã khuyến mãi đã hết hạn",
+        "out_of_stock": "Mã khuyến mãi đã hết lượt sử dụng"
+      },
+      "success": "Áp dụng mã khuyến mãi thành công",
+      "discount": "Giảm giá",
+      "max": "Tối đa",
+      "promotion_code": "Mã khuyến mãi",
+      "apply": "Áp dụng"
+    }
+  },
+  "Common": {
+    "button": {
+      "submit": "Xác nhận",
+      "cancel": "Hủy",
+      "close": "Đóng",
+      "save": "Lưu",
+      "edit": "Sửa",
+      "delete": "Xóa",
+      "back": "Quay lại",
+      "next": "Tiếp theo"
+    }
+  },
+  "Filter": {
+    "title": "Bộ lọc",
+    "button": {
+      "apply": "Áp dụng"
+    }
+  },
+  "personal": {
+    "navigation": {
+      "title": "Điều hướng",
+      "bookmark": "Đã lưu",
+      "bookmark_desc": "Tours và bài viết đã lưu",
+      "transaction": "Giao dịch",
+      "transaction_desc": "Quản lý đặt tour của bạn",
+      "account": "Tài khoản",
+      "account_desc": "Cài đặt tài khoản",
+      "logout": "Đăng xuất",
+      "saved": "Đã lưu",
+      "pending": "Chờ TT",
+      "help_title": "Cần hỗ trợ?",
+      "help_desc": "Liên hệ với chúng tôi để được hỗ trợ về đặt tour.",
+      "contact_support": "Liên hệ hỗ trợ"
+    },
+    "bookmark": {
+      "title": "Danh sách đã lưu",
+      "saved_tours": "Tours đã lưu",
+      "saved_articles": "Bài viết đã lưu",
+      "view_more": "Xem thêm"
+    },
+    "transaction": {
+      "title": "Đơn Đặt Của Tôi",
+      "description": "Theo dõi và quản lý đặt tour của bạn",
+      "tabs": {
+        "pending": "Chờ Thanh Toán",
+        "other": "Các Đơn Khác"
+      },
+      "no_transactions": "Không tìm thấy đơn đặt nào",
+      "error_loading": "Lỗi tải đơn đặt",
+      "details": "Chi tiết",
+      "booking_id": "Mã đặt tour",
+      "booking_code": "Mã đặt chỗ",
+      "duration": "Thời gian",
+      "days": "ngày",
+      "location": "Địa điểm",
+      "date": "Ngày đi",
+      "guests": "Khách",
+      "people": "người",
+      "payment_method_label": "Phương thức thanh toán",
+      "payment_date": "Ngày thanh toán",
+      "discount": "Giảm giá",
+      "booked_on": "Đặt vào ngày",
+      "deadline": {
+        "expired": "Đã hết hạn",
+        "urgent": "Sắp hết hạn thanh toán!"
+      },
+      "status": {
+        "darft": "Nháp",
+        "pending_payment": "Chờ thanh toán",
+        "failed_payment": "Thanh toán thất bại",
+        "expired_payment": "Hết hạn thanh toán",
+        "paid": "Đã thanh toán",
+        "confirmed": "Đã xác nhận",
+        "assigned_guide": "Đã chỉ định HDV",
+        "in_progress": "Đang diễn ra",
+        "cancelled_by_user": "Khách hàng hủy",
+        "cancelled_by_admin": "Quản trị viên hủy",
+        "completed": "Hoàn thành",
+        "refunded": "Đã hoàn tiền",
+        "expired": "Hết hạn"
+      },
+      "payment_method": {
+        "bank_transfer": "Chuyển khoản ngân hàng",
+        "credit_card": "Thẻ tín dụng",
+        "paypal": "PayPal",
+        "cash": "Tiền mặt",
+        "momo": "MoMo",
+        "zalopay": "ZaloPay",
+        "vnpay": "VNPay"
+      },
+      "filters": {
+        "title": "Bộ lọc tìm kiếm",
+        "subtitle": "Tìm giao dịch theo ngày và trạng thái",
+        "date_range": "Khoảng thời gian",
+        "start_date": "Từ ngày",
+        "end_date": "Đến ngày",
+        "status": "Trạng thái",
+        "all_statuses": "Tất cả trạng thái",
+        "selected": "đã chọn",
+        "search_status": "Tìm kiếm trạng thái",
+        "no_results": "Không có kết quả",
+        "clear": "Xóa bộ lọc"
+      },
+      "actions": {
+        "pay_now": "Thanh toán",
+        "cancel": "Hủy",
+        "review": "Đánh giá",
+        "view_details": "Xem chi tiết"
+      },
+      "cancel_success": "Hủy booking thành công",
+      "cancel_success_description": "Booking đã được hủy thành công",
+      "cancel_failed": "Lỗi hủy booking",
+      "cancel_failed_description": "Không thể hủy booking. Vui lòng thử lại",
+      "payment_error": "Lỗi thanh toán",
+      "payment_error_description": "Không thể tạo link thanh toán. Vui lòng thử lại",
+      "processing": "Đang xử lý...",
+      "cancelling": "Đang hủy...",
+      "pending_tab": "Chờ thanh toán",
+      "other_tab": "Khác",
+      "no_pending": "Không có booking chờ thanh toán",
+      "no_other": "Không có booking khác"
+    },
+    "detail": {
+      "title": "Chi tiết giao dịch",
+      "booking_info": {
+        "title": "Thông tin đặt tour",
+        "booking_id": "Mã đặt tour",
+        "booking_date": "Ngày đặt",
+        "start_date": "Ngày khởi hành",
+        "end_date": "Ngày kết thúc",
+        "guest_count": "Số khách",
+        "payment_info": "Thông tin thanh toán",
+        "payment_method": "Phương thức",
+        "payment_date": "Ngày thanh toán",
+        "original_price": "Giá gốc",
+        "discount": "Giảm giá",
+        "total_amount": "Tổng tiền",
+        "payment_deadline": "Hạn thanh toán",
+        "additional_info": "Ghi chú"
+      },
+      "customer_info": {
+        "title": "Thông tin khách hàng",
+        "customer": "Khách hàng",
+        "email": "Email",
+        "phone": "Số điện thoại",
+        "status": "Trạng thái",
+        "loyal_customer": "Khách hàng thân thiết",
+        "new_customer": "Khách hàng mới",
+        "send_email": "Gửi email",
+        "make_call": "Gọi điện",
+        "not_updated": "Chưa cập nhật"
+      },
+      "tour_info": {
+        "title": "Chi tiết tour",
+        "pickup_location": "Điểm khởi hành",
+        "duration": "Thời gian",
+        "adult_price": "Giá người lớn",
+        "child_price": "Giá trẻ em",
+        "highlights": "Điểm nổi bật",
+        "professional_guide": "Hướng dẫn viên chuyên nghiệp",
+        "transportation": "Phương tiện di chuyển",
+        "travel_insurance": "Bảo hiểm du lịch",
+        "support_24_7": "Hỗ trợ 24/7",
+        "view_tour_details": "Xem chi tiết tour",
+        "similar_tours": "Tour tương tự",
+        "tour_not_available": "Thông tin tour không khả dụng"
+      },
+      "actions": {
+        "pay_now": "Thanh toán ngay",
+        "print_invoice": "In hóa đơn",
+        "download_pdf": "Tải PDF",
+        "back_to_list": "Quay lại danh sách",
+        "print_transaction": "In giao dịch",
+        "back": "Quay lại"
+      },
+      "loading": "Đang tải thông tin giao dịch...",
+      "error": {
+        "title": "Có lỗi xảy ra",
+        "message": "Không thể tải thông tin giao dịch. Vui lòng thử lại.",
+        "retry": "Thử lại"
+      },
+      "format": {
+        "days": "ngày",
+        "nights": "đêm",
+        "day_night": "{days} ngày {nights} đêm",
+        "single_day": "1 ngày",
+        "adults": "người lớn",
+        "children": "trẻ em",
+        "infants": "em bé",
+        "not_specified": "Chưa xác định"
+      }
+    },
+    "account": {
+      "title": "Cài đặt tài khoản",
+      "profile": "Cài đặt hồ sơ",
+      "security": "Cài đặt bảo mật",
+      "personal_info": {
+        "title": "Thông tin cá nhân",
+        "description": "Cập nhật thông tin cá nhân và thông tin liên hệ của bạn",
+        "first_name": "Tên",
+        "last_name": "Họ",
+        "phone_number": "Số điện thoại",
+        "date_of_birth": "Ngày sinh",
+        "address": "Địa chỉ",
+        "avatar": "URL ảnh đại diện",
+        "edit": "Chỉnh sửa",
+        "save_changes": "Lưu thay đổi",
+        "cancel": "Hủy",
+        "success": "Cập nhật thông tin cá nhân thành công",
+        "error": "Cập nhật thông tin cá nhân thất bại",
+        "updating": "Đang cập nhật..."
+      },
+      "password": {
+        "title": "Đổi mật khẩu",
+        "description": "Cập nhật mật khẩu để bảo vệ tài khoản của bạn",
+        "current_password": "Mật khẩu hiện tại",
+        "new_password": "Mật khẩu mới",
+        "confirm_password": "Xác nhận mật khẩu",
+        "requirements": "Mật khẩu phải có ít nhất 8 ký tự",
+        "edit": "Đổi mật khẩu",
+        "change_password": "Đổi mật khẩu",
+        "cancel": "Hủy",
+        "success": "Đổi mật khẩu thành công",
+        "error": "Đổi mật khẩu thất bại",
+        "mismatch": "Mật khẩu không khớp",
+        "changing": "Đang đổi...",
+        "no_edit_message": "Nhấn nút 'Đổi mật khẩu' để cập nhật mật khẩu của bạn"
+      }
+    },
+    "booking_pending_list": {
+      "loading": "Đang tải đơn chờ thanh toán...",
+      "error": "Lỗi tải đơn chờ thanh toán",
+      "empty": "Không có đơn chờ thanh toán",
+      "empty_title": "Chưa có giao dịch nào",
+      "empty_description": "Các giao dịch đang chờ thanh toán sẽ hiển thị tại đây. Hãy khám phá các tour du lịch tuyệt vời của chúng tôi!",
+      "explore_tours": "Khám phá tour",
+      "error_title": "Đã xảy ra lỗi",
+      "error_description": "Không thể tải danh sách giao dịch. Vui lòng thử lại sau.",
+      "retry": "Thử lại"
+    },
+    "booking_other_list": {
+      "loading": "Đang tải các đơn khác...",
+      "error": "Lỗi tải các đơn khác",
+      "empty": "Không có đơn khác",
+      "empty_title": "Chưa có giao dịch nào",
+      "empty_description": "Lịch sử các giao dịch đã hoàn thành, đã xác nhận hoặc đã hủy sẽ hiển thị tại đây.",
+      "explore_tours": "Khám phá tour",
+      "error_title": "Đã xảy ra lỗi",
+      "error_description": "Không thể tải danh sách giao dịch. Vui lòng thử lại sau.",
+      "retry": "Thử lại"
+    }
+  },
+  "payment": {
+    "success": {
+      "title": "Thanh toán thành công!",
+      "description": "Cảm ơn bạn đã đặt tour. Chúng tôi sẽ liên hệ với bạn sớm nhất có thể.",
+      "booking_confirmed": "Đặt tour thành công",
+      "tour": "Tour",
+      "date": "Ngày khởi hành",
+      "guests": "Số khách",
+      "adults": "người lớn",
+      "children": "trẻ em",
+      "order_code": "Mã đơn hàng",
+      "total_paid": "Tổng thanh toán",
+      "email_confirmation": "Email xác nhận đã được gửi đến địa chỉ email của bạn",
+      "save_order_code": "Lưu lại mã đơn hàng để tra cứu tại /order/lookup",
+      "view_order_details": "Xem chi tiết đơn hàng",
+      "browse_more_tours": "Khám phá thêm tour",
+      "view_orders": "Xem đơn hàng",
+      "back_home": "Về trang chủ",
+      "auto_redirect": "Tự động chuyển hướng sau {seconds} giây"
+    },
+    "cancel": {
+      "title": "Thanh toán đã bị hủy",
+      "description": "Đơn hàng của bạn chưa được thanh toán. Bạn có thể thử lại hoặc liên hệ với chúng tôi để được hỗ trợ.",
+      "order_code": "Mã đơn hàng",
+      "booking_saved": "Đừng lo - đơn đặt tour của bạn đã được lưu.",
+      "retry_or_browse": "Bạn có thể thử thanh toán lại hoặc khám phá các tour khác.",
+      "retry_payment": "Thử lại thanh toán",
+      "browse_tours": "Khám phá tour",
+      "back_home": "Về trang chủ",
+      "auto_redirect": "Tự động chuyển hướng sau {seconds} giây"
+    }
+  },
+  "tourCreate": {
+    "title": "Tạo Tour Mới",
+    "image": "Hình ảnh",
+    "required": "*",
+    "selectImage": "Chọn hình ảnh",
+    "overview": "Tổng quan",
+    "submit": "Gửi",
+    "contactNumber": "Số điện thoại liên hệ",
+    "contactPerson": "Người liên hệ",
+    "add": "Thêm",
+    "save": "Lưu",
+    "startDate": "Ngày bắt đầu",
+    "endDate": "Ngày kết thúc",
+    "maxSlots": "Số chỗ tối đa",
+    "slots": "chỗ",
+    "noAvailableDates": "Chưa có ngày khả dụng. Nhấn + để thêm.",
+    "availableDates": "Ngày khả dụng",
+    "included": "Dịch vụ bao gồm",
+    "excluded": "Dịch vụ không bao gồm",
+    "itinerary": "Lịch trình",
+    "addItinerary": "Thêm lịch trình",
+    "remove": "Xóa",
+    "ethnic": "Dân tộc",
+    "location": "Địa điểm",
+    "status": "Trạng thái",
+    "duration": "Thời gian tour (ngày)",
+    "pickupLocation": "Điểm đón",
+    "publishedDate": "Ngày xuất bản",
+    "adultPrice": "Giá người lớn",
+    "childPrice": "Giá trẻ em",
+    "select": "Chọn",
+    "selectEthnic": "Chọn dân tộc",
+    "selectLocation": "Chọn địa điểm",
+    "selectPickupLocation": "Chọn điểm đón",
+    "chooseDate": "Chọn ngày",
+    "selectEmployee": "Chọn nhân viên",
+    "selectStartDateFirst": "Vui lòng chọn ngày bắt đầu trước",
+    "dateConflictWarning": "Cảnh báo xung đột ngày",
+    "publishedDateConflictMessage": "Ngày xuất bản phải sớm hơn ngày bắt đầu tour ít nhất 1 tuần. Vui lòng kiểm tra lại ngày đã chọn.",
+    "availableDatesConflictMessage": "Các ngày tour đang bị trùng lặp. Vui lòng chọn ngày khác.",
+    "itineraryTitle": "Tiêu đề lịch trình",
+    "itineraryDescription": "Mô tả lịch trình",
+    "validation": {
+      "imageRequired": "Yêu cầu hình ảnh",
+      "titleRequired": "Yêu cầu tiêu đề",
+      "locationRequired": "Yêu cầu địa điểm",
+      "ethnicRequired": "Yêu cầu chọn ít nhất một dân tộc",
+      "statusInvalid": "Trạng thái không hợp lệ",
+      "pickupLocationRequired": "Yêu cầu điểm đón",
+      "publishedDateRequired": "Ngày xuất bản phải từ hôm nay trở đi",
+      "publishedDateMinWeek": "Ngày xuất bản phải sau ngày hiện tại ít nhất 1 tuần",
+      "duration": "Thời gian tour",
+      "durationMin": "Thời gian tour phải ít nhất 1 ngày",
+      "durationMax": "Thời gian tour không được quá 30 ngày",
+      "adultPriceMin": "Giá người lớn phải lớn hơn 0",
+      "childPriceMin": "Giá trẻ em phải lớn hơn 0",
+      "contactNameRequired": "Yêu cầu tên liên hệ",
+      "contactPhoneInvalid": "Số điện thoại phải có đúng 10 số",
+      "includedRequired": "Yêu cầu dịch vụ bao gồm",
+      "excludedRequired": "Yêu cầu dịch vụ không bao gồm",
+      "overviewRequired": "Yêu cầu tổng quan",
+      "overviewMax": "Tổng quan không được quá 1000 ký tự",
+      "itineraryTitleRequired": "Yêu cầu tiêu đề lịch trình",
+      "itineraryDescriptionRequired": "Yêu cầu mô tả lịch trình",
+      "availableDatesRequired": "Yêu cầu ít nhất một ngày khả dụng",
+      "startDateRequired": "Yêu cầu ngày bắt đầu",
+      "startDateAfterPublished": "Ngày bắt đầu phải sau ngày xuất bản ít nhất 1 tuần",
+      "dateConflict": "Ngày bắt đầu trùng với các ngày tour hiện có",
+      "endDateRequired": "Yêu cầu ngày kết thúc",
+      "maxSlotsMin": "Số chỗ tối đa phải ít nhất là 1",
+      "endDateAfterStart": "Ngày kết thúc phải sau hoặc bằng ngày bắt đầu",
+      "assignedEmployeesRequired": "Yêu cầu phân công ít nhất một nhân viên cho ngày này"
+    }
+  },
+  "chatbot": {
+    "title": "Trợ lý ảo Du lịch",
+    "placeholder": "Nhập câu hỏi về du lịch...",
+    "welcome_message": "Xin chào! Tôi có thể giúp bạn tìm hiểu về các tour du lịch làng dân tộc. Bạn muốn biết gì?",
+    "error_message": "Xin lỗi, có lỗi xảy ra. Vui lòng thử lại.",
+    "typing_message": "Đang trả lời...",
+    "send_button": "Gửi tin nhắn",
+    "open_button": "Mở chatbot",
+    "close_button": "Đóng chatbot",
+    "minimize_button": "Thu nhỏ",
+    "expand_button": "Mở rộng",
+    "guest_label": "Khách"
+  },
+  "contact": {
+    "meta": {
+      "title": "Liên Hệ - Ethnic Village Travel",
+      "description": "Liên hệ với chúng tôi để được tư vấn và hỗ trợ về các tour du lịch dân tộc"
+    },
+    "hero": {
+      "title": "Liên Hệ Với Chúng Tôi",
+      "description": "Chúng tôi luôn sẵn sàng hỗ trợ bạn trong hành trình khám phá văn hóa dân tộc"
+    },
+    "info": {
+      "title": "Thông Tin Liên Hệ",
+      "phone": {
+        "title": "Điện Thoại",
+        "primary": "+84 123 456 789",
+        "secondary": "+84 987 654 321"
+      },
+      "email": {
+        "title": "Email",
+        "general": "info@ethnicvillagetravel.com",
+        "support": "support@ethnicvillagetravel.com"
+      },
+      "address": {
+        "title": "Địa Chỉ",
+        "line1": "123 Đường Văn Hóa",
+        "line2": "Quận Ba Đình, Hà Nội, Việt Nam"
+      },
+      "hours": {
+        "title": "Giờ Làm Việc",
+        "weekdays": "Thứ 2 - Thứ 6: 8:00 - 18:00",
+        "weekend": "Thứ 7 - Chủ Nhật: 9:00 - 17:00"
+      },
+      "social": {
+        "title": "Mạng Xã Hội",
+        "follow_us": "Theo dõi chúng tôi"
+      }
+    },
+    "form": {
+      "title": "Gửi Tin Nhắn",
+      "description": "Điền vào form bên dưới và chúng tôi sẽ liên hệ lại với bạn sớm nhất có thể",
+      "name": {
+        "label": "Họ và Tên",
+        "placeholder": "Nhập họ và tên của bạn"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Nhập địa chỉ email của bạn"
+      },
+      "phone": {
+        "label": "Số Điện Thoại",
+        "placeholder": "Nhập số điện thoại của bạn"
+      },
+      "subject": {
+        "label": "Chủ Đề",
+        "placeholder": "Chủ đề tin nhắn của bạn"
+      },
+      "message": {
+        "label": "Tin Nhắn",
+        "placeholder": "Viết tin nhắn của bạn tại đây..."
+      },
+      "submit": "Gửi Tin Nhắn",
+      "submitting": "Đang gửi...",
+      "success": "Tin nhắn của bạn đã được gửi thành công! Chúng tôi sẽ liên hệ lại sớm.",
+      "error": "Có lỗi xảy ra khi gửi tin nhắn. Vui lòng thử lại.",
+      "errors": {
+        "name_required": "Vui lòng nhập họ và tên",
+        "name_min_length": "Họ và tên phải có ít nhất 2 ký tự",
+        "email_required": "Vui lòng nhập địa chỉ email",
+        "email_invalid": "Địa chỉ email không hợp lệ",
+        "phone_required": "Vui lòng nhập số điện thoại",
+        "phone_invalid": "Số điện thoại không hợp lệ",
+        "subject_required": "Vui lòng nhập chủ đề",
+        "subject_min_length": "Chủ đề phải có ít nhất 3 ký tự",
+        "message_required": "Vui lòng nhập tin nhắn",
+        "message_min_length": "Tin nhắn phải có ít nhất 10 ký tự"
+      }
+    },
+    "response_time": "Chúng tôi thường phản hồi trong vòng 24 giờ làm việc"
+  },
+  "about": {
+    "meta": {
+      "title": "Giới Thiệu - Ethnic Village Travel",
+      "description": "Khám phá câu chuyện và sứ mệnh của chúng tôi trong việc kết nối du khách với các làng dân tộc thiểu số Việt Nam"
+    },
+    "hero": {
+      "title": "Về Chúng Tôi",
+      "description": "Kết nối bạn với trải nghiệm văn hóa dân tộc đích thực"
+    },
+    "mission": {
+      "title": "Sứ Mệnh Của Chúng Tôi",
+      "content": "Chúng tôi tin rằng du lịch có thể là cầu nối văn hóa, mang lại lợi ích cho cả du khách và cộng đồng địa phương. Sứ mệnh của chúng tôi là tạo ra những trải nghiệm du lịch có ý nghĩa, bền vững, giúp bảo tồn và quảng bá văn hóa phong phú của các dân tộc thiểu số Việt Nam.",
+      "subtitle": "Câu Chuyện Của Chúng Tôi",
+      "story": "Được thành lập với niềm đam mê về văn hóa dân tộc và du lịch bền vững, Ethnic Village Travel đã dành nhiều năm xây dựng mối quan hệ tin cậy với các cộng đồng địa phương. Chúng tôi làm việc trực tiếp với các gia đình và hướng dẫn viên địa phương để đảm bảo mỗi chuyến đi không chỉ đáng nhớ mà còn có tác động tích cực đến cộng đồng."
+    },
+    "values": {
+      "title": "Giá Trị Cốt Lõi",
+      "items": {
+        "authenticity": {
+          "title": "Trải Nghiệm Chân Thực",
+          "description": "Chúng tôi cam kết mang đến những trải nghiệm văn hóa chân thực, không bị thương mại hóa, tôn trọng truyền thống địa phương"
+        },
+        "sustainability": {
+          "title": "Du Lịch Bền Vững",
+          "description": "Chúng tôi ưu tiên các hoạt động du lịch có trách nhiệm, bảo vệ môi trường và hỗ trợ kinh tế địa phương"
+        },
+        "community": {
+          "title": "Hỗ Trợ Cộng Đồng",
+          "description": "Một phần doanh thu từ mỗi chuyến đi được trả trực tiếp cho các gia đình và cộng đồng địa phương"
+        },
+        "quality": {
+          "title": "Chất Lượng Dịch Vụ",
+          "description": "Chúng tôi duy trì tiêu chuẩn cao nhất về an toàn, tiện nghi và dịch vụ khách hàng trong mọi chuyến đi"
+        }
+      }
+    },
+    "stats": {
+      "title": "Thành Tựu Của Chúng Tôi",
+      "years_experience": {
+        "value": "10+",
+        "label": "Năm Kinh Nghiệm"
+      },
+      "tours_completed": {
+        "value": "5,000+",
+        "label": "Chuyến Đi Hoàn Thành"
+      },
+      "happy_customers": {
+        "value": "15,000+",
+        "label": "Khách Hàng Hài Lòng"
+      },
+      "villages_partnered": {
+        "value": "50+",
+        "label": "Làng Dân Tộc Hợp Tác"
+      }
+    },
+    "cta": {
+      "title": "Sẵn Sàng Khám Phá?",
+      "description": "Tham gia cùng chúng tôi trong hành trình khám phá văn hóa dân tộc phong phú của Việt Nam",
+      "explore_tours": "Khám Phá Các Tour",
+      "contact_us": "Liên Hệ Chúng Tôi"
+    }
+  },
+  "services": {
+    "meta": {
+      "title": "Dịch Vụ - Ethnic Village Travel",
+      "description": "Khám phá các dịch vụ du lịch dân tộc của chúng tôi - từ đặt tour, tour tùy chỉnh đến hướng dẫn viên chuyên nghiệp"
+    },
+    "hero": {
+      "title": "Dịch Vụ Của Chúng Tôi",
+      "description": "Trải nghiệm đầy đủ các dịch vụ du lịch dân tộc chuyên nghiệp"
+    },
+    "list": {
+      "title": "Các Dịch Vụ Chúng Tôi Cung Cấp",
+      "subtitle": "Chúng tôi cung cấp đầy đủ các dịch vụ để đảm bảo chuyến đi của bạn trọn vẹn và đáng nhớ",
+      "tour_booking": {
+        "title": "Đặt Tour Trực Tuyến",
+        "description": "Dễ dàng tìm kiếm và đặt các tour du lịch dân tộc với hệ thống đặt chỗ trực tuyến tiện lợi của chúng tôi",
+        "features": [
+          "Duyệt tour theo dân tộc, địa điểm và thời gian",
+          "Xem chi tiết lịch trình và đánh giá từ khách hàng",
+          "Đặt chỗ và thanh toán trực tuyến an toàn",
+          "Xác nhận đặt chỗ tức thì qua email"
+        ],
+        "cta": "Khám Phá Các Tour"
+      },
+      "custom_tours": {
+        "title": "Tour Tùy Chỉnh",
+        "description": "Tạo hành trình riêng của bạn với các tour được thiết kế đặc biệt theo nhu cầu và sở thích cá nhân",
+        "features": [
+          "Lịch trình linh hoạt theo yêu cầu",
+          "Lựa chọn dân tộc và hoạt động ưa thích",
+          "Phù hợp cho nhóm và gia đình",
+          "Tư vấn miễn phí từ chuyên gia du lịch"
+        ],
+        "cta": "Liên Hệ Tư Vấn"
+      },
+      "guide_services": {
+        "title": "Hướng Dẫn Viên Chuyên Nghiệp",
+        "description": "Đội ngũ hướng dẫn viên địa phương giàu kinh nghiệm, am hiểu văn hóa và nhiệt tình",
+        "features": [
+          "Hướng dẫn viên người dân tộc địa phương",
+          "Hỗ trợ đa ngôn ngữ (Tiếng Việt, Tiếng Anh)",
+          "Kiến thức sâu về văn hóa và truyền thống",
+          "Đảm bảo an toàn và hỗ trợ suốt hành trình"
+        ]
+      },
+      "additional_services": {
+        "title": "Dịch Vụ Bổ Sung",
+        "description": "Các dịch vụ hỗ trợ khác để chuyến đi của bạn thuận tiện và thoải mái hơn",
+        "features": [
+          "Đưa đón sân bay và vận chuyển",
+          "Đặt phòng khách sạn và homestay",
+          "Bảo hiểm du lịch",
+          "Hỗ trợ visa và thủ tục"
+        ]
+      }
+    }
+  },
+  "booking": {
+    "wizard": {
+      "back": "Quay lại",
+      "continue": "Tiếp tục",
+      "processing": "Đang xử lý...",
+      "cancel_booking": "Hủy đặt tour",
+      "steps": {
+        "guest_count": "Số khách",
+        "contact_info": "Thông tin liên hệ",
+        "guest_info": "Thông tin khách",
+        "review": "Xác nhận & Thanh toán"
+      },
+      "guest_count": {
+        "selected_date": "Ngày đã chọn",
+        "no_date_selected": "Chưa chọn ngày",
+        "available_slots": "Số chỗ còn trống",
+        "adult": "Người lớn",
+        "child": "Trẻ em",
+        "discount": "Giảm giá",
+        "auto_applied": "Tự động",
+        "total": "Tổng cộng",
+        "per_person": "người",
+        "errors": {
+          "guest_count_zero": "Vui lòng chọn ít nhất 1 khách",
+          "exceeds_available_slots": "Số khách vượt quá số chỗ còn trống"
+        }
+      },
+      "contact_info": {
+        "name": "Họ và tên",
+        "name_placeholder": "Nhập họ và tên của bạn",
+        "email": "Email",
+        "email_placeholder": "Nhập địa chỉ email",
+        "email_helper": "Ví dụ: example@email.com",
+        "phone": "Số điện thoại",
+        "phone_placeholder": "Nhập số điện thoại (10 chữ số)",
+        "phone_helper": "Ví dụ: 0901234567 hoặc +84901234567",
+        "errors": {
+          "name_required": "Vui lòng nhập họ và tên",
+          "email_required": "Vui lòng nhập email",
+          "email_invalid": "Email không hợp lệ",
+          "phone_required": "Vui lòng nhập số điện thoại",
+          "phone_invalid": "Số điện thoại phải có 10 chữ số"
+        }
+      },
+      "guest_info": {
+        "booking_type_label": "Bạn là ai trong chuyến đi này?",
+        "self_option": "Tôi là khách tham gia",
+        "self_description": "Thông tin liên hệ sẽ được sử dụng cho khách",
+        "others_option": "Đặt cho người khác",
+        "others_description": "Nhập thông tin của khách tham gia tour",
+        "guest_details_title": "Thông tin khách tham gia",
+        "auto_filled": "Tự động điền",
+        "name": "Họ và tên",
+        "name_placeholder": "Nhập họ và tên khách",
+        "email": "Email",
+        "email_placeholder": "Nhập địa chỉ email khách",
+        "email_helper": "Ví dụ: example@email.com",
+        "phone": "Số điện thoại",
+        "phone_placeholder": "Nhập số điện thoại khách (10 chữ số)",
+        "phone_helper": "Ví dụ: 0901234567 hoặc +84901234567",
+        "errors": {
+          "name_required": "Vui lòng nhập họ và tên",
+          "email_required": "Vui lòng nhập email",
+          "email_invalid": "Email không hợp lệ",
+          "phone_required": "Vui lòng nhập số điện thoại",
+          "phone_invalid": "Số điện thoại phải có 10 chữ số"
+        }
+      },
+      "review": {
+        "edit": "Sửa",
+        "guest_count_section": "Số lượng khách",
+        "contact_info_section": "Thông tin liên hệ",
+        "guest_info_section": "Thông tin khách",
+        "tour_info": "Thông tin tour",
+        "date": "Ngày",
+        "adults": "Người lớn",
+        "children": "Trẻ em",
+        "total_guests": "Tổng số khách",
+        "same_as_contact": "Giống thông tin liên hệ",
+        "confirm_and_pay": "Xác nhận & Thanh toán",
+        "retry": "Thử lại",
+        "payment_failed": "Thanh toán thất bại. Vui lòng thử lại."
+      },
+      "summary": {
+        "title": "Tóm tắt đặt tour",
+        "date": "Ngày",
+        "guests": "Số khách",
+        "adults": "Người lớn",
+        "children": "Trẻ em",
+        "subtotal": "Tạm tính",
+        "discount": "Giảm giá",
+        "total": "Tổng cộng",
+        "not_selected": "Chưa chọn"
+      },
+      "price_breakdown": {
+        "title": "Chi tiết giá",
+        "adults": "Người lớn",
+        "children": "Trẻ em",
+        "subtotal": "Tạm tính",
+        "total": "Tổng cộng"
+      },
+      "promotion": {
+        "title": "Mã khuyến mãi",
+        "placeholder": "Nhập mã khuyến mãi",
+        "apply": "Áp dụng",
+        "discount_applied": "Giảm {percent}%",
+        "errors": {
+          "expired": "Mã khuyến mãi đã hết hạn",
+          "not_active": "Mã khuyến mãi chưa được kích hoạt",
+          "out_of_stock": "Mã khuyến mãi đã hết lượt sử dụng",
+          "invalid": "Mã khuyến mãi không hợp lệ",
+          "validation_failed": "Không thể xác thực mã khuyến mãi"
+        }
+      },
+      "error": {
+        "retry": "Thử lại",
+        "default_title": "Đã xảy ra lỗi",
+        "offline_title": "Mất kết nối mạng",
+        "offline_message": "Vui lòng kiểm tra kết nối internet của bạn. Các thao tác sẽ được thực hiện khi có mạng trở lại."
+      }
+    }
+  },
+  "article": {
+    "search": {
+      "placeholder": "Tìm kiếm bài viết...",
+      "button": "Tìm kiếm"
+    },
+    "list": {
+      "title": "Danh sách bài viết",
+      "sort": {
+        "newest": "Mới nhất",
+        "oldest": "Cũ nhất",
+        "most_viewed": "Lượt xem giảm dần",
+        "most_voted": "Lượt upvote giảm dần",
+        "relevance": "Phù hợp nhất"
+      },
+      "results_count": "Tìm thấy {count} kết quả",
+      "searching": "Đang tìm kiếm...",
+      "empty": {
+        "title": "Không tìm thấy bài viết",
+        "description": "Thử điều chỉnh bộ lọc hoặc từ khóa tìm kiếm"
+      }
+    },
+    "item": {
+      "views": "{count} lượt xem",
+      "upvotes": "{count} upvotes",
+      "read_time": "{minutes} phút đọc",
+      "published_on": "Ngày đăng: {date}"
+    }
+  }
+}
