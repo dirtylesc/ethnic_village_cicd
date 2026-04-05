@@ -12,7 +12,7 @@ export default function ForbiddenPage() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-gray-50 to-gray-100 px-4">
       <div className="w-full max-w-md text-center">
-        
+
         <div className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-red-100">
           <ShieldX className="h-10 w-10 text-red-600" />
         </div>
@@ -28,7 +28,7 @@ export default function ForbiddenPage() {
         <div className="flex flex-col gap-3 sm:flex-row sm:justify-center">
           <Button onClick={() => router.back()} variant="outline" className="flex items-center gap-2">
             <ArrowLeft className="h-4 w-4" />
-            Quay lại
+            Quay lại 123
           </Button>
 
           <Button asChild className="flex items-center gap-2">
